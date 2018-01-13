@@ -3,13 +3,11 @@
 
 #### University of Texas at Austin School of Information
 
-Fall 2017, Mondays 3–6 p.m.
+Spring 2018, Thursdays 3–6 p.m.
 
-Instructor: Tanya Clement
+Instructor: Stephen McLaughlin
 
-TA: Steve McLaughlin
-
-Office hours: Mondays 1–3 p.m., UTA 5.558
+Office hours: Thursdays 1–3 p.m., UTA 5.558
 
 
 ##### Course Schedule

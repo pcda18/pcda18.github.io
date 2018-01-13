@@ -28,13 +28,13 @@ Docker is now installed and ready to go. Open the `Windows PowerShell` applicati
 
 
 ```
-docker pull pcda17/ubuntu-container
+docker pull pcda18/ubuntu-image
 ```
 
 To launch the Docker container, paste the following command into PowerShell and press return (using your Windows username instead of `**your-username**`).
 
 ```
-docker run --name pcda_ubuntu -ti -p 8889:8889 --volume C:\Users\**your-username**\Desktop\sharedfolder\:/sharedfolder/ pcda17/ubuntu-container bash
+docker run --name pcda_ubuntu -ti -p 8889:8889 --volume C:\Users\**your-username**\Desktop\sharedfolder\:/sharedfolder/ pcda18/ubuntu-image bash
 ```
 
 *Note: If you aren't able to paste text into PowerShell, right click the bar at the top of the PowerShell window, then select `Edit > Paste`*.

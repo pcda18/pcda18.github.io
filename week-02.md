@@ -6,16 +6,16 @@ Open Terminal in macOS and launch our Docker container:
 
 ```
 docker rm -f pcda_ubuntu
-docker pull pcda17/ubuntu-container
-docker run --name pcda_ubuntu -ti -p 8889:8889 --volume ~/Desktop/sharedfolder/:/sharedfolder/ pcda17/ubuntu-container bash
+docker pull pcda18/ubuntu-image
+docker run --name pcda_ubuntu -ti -p 8889:8889 --volume ~/Desktop/sharedfolder/:/sharedfolder/ pcda18/ubuntu-image bash
 ```
 
 In Windows 10, open PowerShell and enter the following to launch the Docker container:
 
 ```
 docker rm -f pcda_ubuntu
-docker pull pcda17/ubuntu-container
-docker run --name pcda_ubuntu -ti -p 8889:8889 --volume C:\Users\***username_here***\Desktop\sharedfolder:/sharedfolder/ pcda17/ubuntu-container bash
+docker pull pcda18/ubuntu-image
+docker run --name pcda_ubuntu -ti -p 8889:8889 --volume C:\Users\***username_here***\Desktop\sharedfolder:/sharedfolder/ pcda18/ubuntu-image bash
 ```
 
 And enter the following line to launch the Python shell.
@@ -121,7 +121,7 @@ A string that includes only numbers and possibly a decimal point — no commas o
 Now we’ll review reading and writing text files from the Python environment. Visit Project Gutenberg or the mirror provided and save the plain text version of Swift's *The Battle of the Books, and other Short Pieces* to your /sharedfolder on your desktop. It's a collection of essays, including a line Toole references in the title _A Confederacy of Dunces_.
 
 - [http://www.gutenberg.org/ebooks/623](http://www.gutenberg.org/ebooks/623)
-- [mirror](https://raw.githubusercontent.com/pcda17/pcda-datasets/master/week-02/pg623.txt)
+- [mirror](https://raw.githubusercontent.com/pcda18/pcda-datasets/master/week-02/pg623.txt)
 
 First we’ll assign the file’s pathname to the variable `filepath` and create the file stream object we’ll use to read its contents. Open the Python shell and enter the following lines.
 
@@ -215,7 +215,7 @@ The Python module `urllib.request`  makes grabbing text from the Web as easy as 
 
 ```
 from urllib.request import urlopen
-url = "https://raw.githubusercontent.com/pcda17/pcda-datasets/master/week-02/Toole_A-Confederacy-of-Dunces_Ch1-2.txt"
+url = "https://raw.githubusercontent.com/pcda18/pcda-datasets/master/week-02/Toole_A-Confederacy-of-Dunces_Ch1-2.txt"
 toole_lines =  urlopen(url).read().decode('utf8').splitlines()
 ```
 
@@ -447,7 +447,7 @@ _Exercise:_ Download a text file from Project Gutenberg and print 14 randomly ch
 
 > _A possible solution:_
 >
->     url = "https://raw.githubusercontent.com/pcda17/pcda-datasets/master/week-02/pg623.txt"
+>     url = "https://raw.githubusercontent.com/pcda18/pcda-datasets/master/week-02/pg623.txt"
 >     swift_lines = urlopen(url).read().decode('utf8').splitlines()
 >     
 >     random_lines = random.sample(swift_lines,14)
@@ -460,7 +460,7 @@ _Exercise:_ Modify your code to return 14 random lines containing a chosen word 
 
 > _A possible solution:_
 >
->     url = "https://raw.githubusercontent.com/pcda17/pcda-datasets/master/week-02/pg623.txt"
+>     url = "https://raw.githubusercontent.com/pcda18/pcda-datasets/master/week-02/pg623.txt"
 >     swift_lines = urlopen(url).read().decode('utf8').splitlines()
 >     
 >     swift_she = []
@@ -494,15 +494,15 @@ First, leave the Docker terminal (ctrl+p, then ctrl+q, like we did at the end of
 
 ```
 docker rm -f pcda_ubuntu
-docker pull pcda17/ubuntu-container
-docker run --name pcda_ubuntu -ti -p 8889:8889 --volume ~/Desktop/sharedfolder/:/sharedfolder/ pcda17/ubuntu-container
+docker pull pcda18/ubuntu-image
+docker run --name pcda_ubuntu -ti -p 8889:8889 --volume ~/Desktop/sharedfolder/:/sharedfolder/ pcda18/ubuntu-image
 ```
 
 Windows 10 version:
 ```
 docker rm -f pcda_ubuntu
-docker pull pcda17/ubuntu-container
-docker run --name pcda_ubuntu -ti -p 8889:8889 --volume C:\Users\***username_here***\Desktop\sharedfolder:/sharedfolder/ pcda17/ubuntu-container
+docker pull pcda18/ubuntu-image
+docker run --name pcda_ubuntu -ti -p 8889:8889 --volume C:\Users\***username_here***\Desktop\sharedfolder:/sharedfolder/ pcda18/ubuntu-image
 ```
 
 Open any browser and type (your Juypter Notebook will launch):
