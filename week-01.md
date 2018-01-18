@@ -211,6 +211,14 @@ Wget is an amazingly versatile tool, and we will use it many times in this cours
 
     man wget
 
+Next, here are two examples of how to use wget to download multiple pages from the web. The following command will grab each file in a numbered sequence, from 00000 to 00074:
+
+    wget http://www.stephenmclaughlin.net/Specific_Object/site/page_{00000..00074}.html
+
+And this one will recursively download an entire website (or part of a website, in this case). The `--recursive` option tells wget to follow each link on a page, then each link on those pages, and so on. By default, this will continue through 5 layers of links. The `--no-parent` option tells wget to ignore everything above the current directory (the 'site' directory, in this case). Finally, the `--wait=0.5` option tells wget to pause for half a second between each download.
+
+    wget --recursive --no-parent --wait=0.5 http://www.stephenmclaughlin.net/Specific_Object/site/
+
 #### Download a video with youtube-dl and create an excerpt with FFmpeg
 
 Another useful program is `youtube-dl`, which allows us to download just about any video from YouTube. Try it with *A Bucket of Blood*, Roger Corman’s 1959 black comedy about beatnik culture (which happens to be in the public domain). The file will be around 300 MB, so this may take a few minutes. You can substitute a shorter video if you prefer.
@@ -253,6 +261,7 @@ As usual, the command `man ffmpeg` will display FFmpeg’s manual.
 
 
 #### Programming basics in Python (as much as time permits)
+
 To get started using Python, simply enter `python3` in the shell.
 
     python3
