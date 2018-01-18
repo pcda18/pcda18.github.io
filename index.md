@@ -1,5 +1,5 @@
 
-# Syllabus: Critical Perspectives in Cultural Data Analysis
+# Syllabus: Programming for Cultural Data Analysis
 
 #### University of Texas at Austin School of Information
 
@@ -19,7 +19,7 @@ Office hours: Thursdays 1–3 p.m., UTA 5.558
 
 ### Course Objectives
 
-Prerequsites: advanced-level undergraduate or graduate coursework in the humanities; no or very little programming experience preferred;
+Prerequsites: previous coursework in the humanities; no or very little programming experience preferred
 
 In the data, information, knowledge, wisdom (DIKW) hierarchy that circulates through Knowledge Management (KM) and Information Science (IS) discussions, data appears at the base of a pyramid of which wisdom is the pinnacle. In this schematic, data is “raw” and lacking in meaning, while information, the next higher level of the pyramid—just below knowledge and then wisdom—represents the presence of added links and relationships; information is higher up on the wisdom chain because it is data made meaningful. In the humanities, students are taught that data is not found in the “raw” but has rather been cooked all along, taken and constructed and seasoned according to our situated contexts including access issues (Where is the data?); media, format, and technology constraints (How is the data?); and perspectives (What is the data? Who is involved in and impacted by its creation and use?).
 
