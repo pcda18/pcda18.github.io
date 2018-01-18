@@ -137,7 +137,7 @@ Work through Chris Albon’s tutorial on Python string operations.
 ### Assignment
 
 
-[WA #1](https://utexas.instructure.com/courses/1216837/discussion_topics/2826310)
+[WA #1](https://utexas.instructure.com/courses/1216837/discussion_topics/2923442)
 
 
 ##### [▸ In-class outline](week-02.md)
