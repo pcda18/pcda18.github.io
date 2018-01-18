@@ -63,7 +63,7 @@ Your final project will include the following elements:
 
 -   In-class presentation (week 14) (10%)
 
--   12 page critical essay, with an appendix of 3–4 data visualizations (30%)
+-   10 page critical essay, with an appendix of 3–4 data visualizations (30%)
 
 ### Weekly Assignments (WA) (50%)
 
@@ -86,18 +86,7 @@ Add Gitelman on raw data oxymoron
 ----------------------------------------------------------------
 
 
-# <a name="week1"></a>Week 1 (9/11): Introductions & Command Line Basics
-
-### Readings
-
-**[Canvas](https://utexas.instructure.com/courses/1204381/files/folder/Week_1)**
-
--   Nick Montfort (2016) “Why Program?” In *Exploratory Programming for the Arts and Humanities*, 267–77. Cambridge, MA: The MIT Press.
-
--   danah boyd & Kate Crawford (2012) "Critical Questions for Big Data," *Information, Communication & Society*, 15:5, 662-679.
-
-To start for next week:
--   Neal Stephenson (1999) “In the Beginning Was the Command Line.” Cryptonomicon. [Note: This reading is due the second week of the course but it's quite long.] <http://www.cryptonomicon.com/beginning.html>. [TXT](http://www.cryptonomicon.com/command.zip).
+# <a name="week1"></a>Week 1 (1/18): Introductions & Command Line Basics
 
 
 ##### [▸ In-class outline](week-01.md)
@@ -112,12 +101,22 @@ http://sites.nationalacademies.org/cstb/currentprojects/cstb_175246
 
 
 
-# <a name="week2"></a>Week 2 (9/18): The Operating System in Context
+# <a name="week2"></a>Week 2 (1/25): The Operating System in Context
 
 
 ### Readings
 
 **[Readings in Canvas](https://utexas.instructure.com/courses/1204381/files/folder/Week_2)**
+
+
+-   Nick Montfort (2016) “Why Program?” In *Exploratory Programming for the Arts and Humanities*, 267–77. Cambridge, MA: The MIT Press.
+
+-   danah boyd & Kate Crawford (2012) "Critical Questions for Big Data," *Information, Communication & Society*, 15:5, 662-679.
+
+Optional:
+-   Neal Stephenson (1999) “In the Beginning Was the Command Line.” Cryptonomicon. [Note: This reading is due the second week of the course but it's quite long.] <http://www.cryptonomicon.com/beginning.html>. [TXT](http://www.cryptonomicon.com/command.zip).
+
+
 
 -   Noria, Xavier. “Understanding Newlines.” *O’Reilly ONLamp*, August 17, 2006. [http://www.onlamp.com/pub/a/onlamp/2006/08/17/understanding-newlines.html](http://www.onlamp.com/pub/a/onlamp/2006/08/17/understanding-newlines.html)
 
@@ -127,14 +126,10 @@ http://sites.nationalacademies.org/cstb/currentprojects/cstb_175246
 
 -   Stephenson, Neal. “In the Beginning Was the Command Line.” Cryptonomicon, 1999. <http://www.cryptonomicon.com/beginning.html>. [TXT](http://www.cryptonomicon.com/command.zip).
 
-<!--
-Kenneth Goldsmith and the Poetics of INformation?
--->
+
 
 ### Optional
-Read pages 1–28 of Shieber’s Python tutorial and work through the code examples.
 
--   Shieber, Stuart M., *Programming for Humanists* pages 1–28, 2014. [http://blogs.harvard.edu/programmingforhumanists/files/2014/12/proghum.pdf](http://blogs.harvard.edu/programmingforhumanists/files/2014/12/proghum.pdf)
 
 Work through Chris Albon’s tutorial on Python string operations.
 -   Albon, Chris. “String Operations.” [http://chrisalbon.com/python/string_operations.html](http://chrisalbon.com/python/string_operations.html)
@@ -155,17 +150,21 @@ Work through Chris Albon’s tutorial on Python string operations.
 
 ----------------------------------------------------------------
 
-# <a name="week3"></a>Week 3 (9/25): Collections as Data: Meaning making
+# <a name="week3"></a>Week 3 (2/1): Collections as Data: Meaning making
 
 ### Readings
 **[Canvas](https://utexas.instructure.com/courses/1204381/files/folder/Week_3)**
 
 - “The Jupyter Notebook.” [http://jupyter-notebook.readthedocs.io/en/latest/notebook.html](http://jupyter-notebook.readthedocs.io/en/latest/notebook.html)
 
+
+Read pages 1–28 of Shieber’s Python tutorial and work through the code examples.
+
+-   Shieber, Stuart M., *Programming for Humanists* pages 1–28, 2014. [http://blogs.harvard.edu/programmingforhumanists/files/2014/12/proghum.pdf](http://blogs.harvard.edu/programmingforhumanists/files/2014/12/proghum.pdf)
+
 <!--move the below to week 2-->
 - Allardice, Simon. “Foundations of Programming: Fundamentals, parts 1-3; part 5, just "part 5, Breaking your code apart"; and part 14, just “Python” and “Libraries and frameworks”. [http://www.lynda.com/JavaScript-tutorials/Foundations-of-Programming-Fundamentals/83603-2.html](http://www.lynda.com/JavaScript-tutorials/Foundations-of-Programming-Fundamentals/83603-2.html) [To access Lynda.com. follow links below, click “Log in,” then “Organizational Login,” and enter your UT EID and password.]
 
-- Clement, T. and McLaughlin, S. “Measured Applause: Toward a Cultural Analysis of Audio Collections.” Cultural Analytics, vol. 1, no. 1, 2016. [http://culturalanalytics.org/2016/05/measured-applause-toward-a-cultural-analysis-of-audio-collections/](http://culturalanalytics.org/2016/05/measured-applause-toward-a-cultural-analysis-of-audio-collections/)
 
 - Introna, L. D. “The Enframing of Code: Agency, Originality and the Plagiarist.” *Theory, Culture & Society* 28, no. 6 (November 1, 2011): 113–41.
 
@@ -178,6 +177,11 @@ Assign Text I this week.
 
 Witmore, Michael. 2016. “Latour, the Digital Humanities, and the Divided Kingdom of Knowledge.” New Literary History 47 (2): 353–75.
 -->
+
+<!--
+- Clement, T. and McLaughlin, S. “Measured Applause: Toward a Cultural Analysis of Audio Collections.” Cultural Analytics, vol. 1, no. 1, 2016. [http://culturalanalytics.org/2016/05/measured-applause-toward-a-cultural-analysis-of-audio-collections/](http://culturalanalytics.org/2016/05/measured-applause-toward-a-cultural-analysis-of-audio-collections/)
+-->
+
 
 ### Optional
 
@@ -199,7 +203,7 @@ Witmore, Michael. 2016. “Latour, the Digital Humanities, and the Divided Kingd
 
 ----------------------------------------------------------------
 
-# <a name="week4"></a>Week 4 (10/2): Collections as Data: Data Models
+# <a name="week4"></a>Week 4 (2/8): Collections as Data: Data Models
 
 ### Readings
 
@@ -238,7 +242,7 @@ Witmore, Michael. 2016. “Latour, the Digital Humanities, and the Divided Kingd
 
 
 
-# <a name="week5"></a>Week 5 (10/9): An Algorithmic Criticism: Word-Level Text Analysis
+# <a name="week5"></a>Week 5 (2/15): An Algorithmic Criticism: Word-Level Text Analysis
 
 
 <!--
@@ -281,7 +285,7 @@ Note: assign Text II this week -- have them turn in their Jupyter notebook.
 ----------------------------------------------------------------
 
 
-# <a name="week6"></a>Week 6 (10/16): The Rise of Free Culture: Web Scraping & APIs
+# <a name="week6"></a>Week 6 (2/22): The Rise of Free Culture: Web Scraping & APIs
 
 <!--
 Install [Beauitful Soup](https://www.crummy.com/software/BeautifulSoup/) library for parsing HTML.
@@ -329,7 +333,7 @@ Notes 2018: We decided to skip working with APIs on Monday due to limited time. 
 
 ----------------------------------------------------------------
 
-# <a name="week7"></a>Week 7 (10/23) The Politics of Open Data
+# <a name="week7"></a>Week 7 (3/1) The Politics of Open Data
 
 ### Readings
 
@@ -365,7 +369,7 @@ we'll work with APIs in week 7 and return to parsing JSON files. Proposals will 
 ----------------------------------------------------------------
 
 
-# <a name="week8"></a>Week 8 (10/30): Statistics and Visualization
+# <a name="week8"></a>Week 8 (3/8): Statistics and Visualization
 
 <!--
 Install [numpy](http://www.numpy.org/) scientific computing library for Python.
@@ -416,7 +420,7 @@ Note:  2018, assign Text III and Burrows this week.
 ----------------------------------------------------------------
 
 
-# <a name="week9"></a>Week 9 (11/6): Your Data, Your culture
+# <a name="week9"></a>Week 9 (3/22): Your Data, Your culture
 
 ### No Readings
 
@@ -430,7 +434,7 @@ Note:  2018, assign Text III and Burrows this week.
 ----------------------------------------------------------------
 
 
-# <a name="week10"></a>Week 10 (11/13): Machine Learning
+# <a name="week10"></a>Week 10 (3/29): Machine Learning
 
 ### Readings
 
@@ -470,7 +474,7 @@ Note:  2018, assign Text III and Burrows this week.
 ----------------------------------------------------------------
 
 
-# <a name="week11"></a>Week 11 (11/20): Critical Text Analysis
+# <a name="week11"></a>Week 11 (4/5): Critical Text Analysis
 
 ### Readings
 
@@ -507,7 +511,7 @@ Getting their and getting it structured;
 ----------------------------------------------------------------
 
 
-# <a name="week12"></a>Week 12 (11/27): Peer Production & Crowdsourcing
+# <a name="week12"></a>Week 12 (4/12): Peer Production & Crowdsourcing
 
 ### Readings
 
@@ -536,7 +540,7 @@ Machine learning in class
 
 ----------------------------------------------------------------
 
-# <a name="week13"></a>Week 13 (12/4): Copyright and the Information Commons
+# <a name="week13"></a>Week 13 (4/19): Copyright and the Information Commons
 
 ### Readings
 
@@ -570,7 +574,7 @@ Steve talks about copyright and helps students
 
 ----------------------------------------------------------------
 
-# <a name="week14"></a>Week 14 (12/11): Final Presentations
+# <a name="week14"></a>Week 14 (5/3): Final Presentations
 
 [Final Presentation due](https://utexas.instructure.com/courses/1204381/assignments/4166564)
 
