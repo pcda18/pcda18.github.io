@@ -57,7 +57,7 @@ You should see a list of directories including "Library," "Users," "bin," "dev" 
 
 #### Command Line Basics Continued
 
-Next, create a new directory and text file in our shared folder. We’ll spend more time working with text data after the break.
+Next, create a new directory and text file in our shared folder.
 
 ```bash
 cd ~/Desktop
@@ -260,7 +260,7 @@ When FFmpeg is finished, open `Bucket_clip.mp4` in VLC Media Player and see how 
 As usual, the command `man ffmpeg` will display FFmpeg’s manual.
 
 
-#### Programming basics in Python (as much as time permits)
+#### Programming basics in Python
 
 To get started using Python, simply enter `python3` in the shell.
 
