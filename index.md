@@ -39,7 +39,7 @@ Learning goals:
 
 -  Writing critically about data requires both a level of knowldege about data and data wrangling as it requires a level of knowledge about thinking and writing from critical perspectives learned in cultural studies. While this course does not *teach* cultural studies, an understanding of and experience in humanities theory and research and the principles of cultural studies are essential.
 
--  Imitating and modifying others’ code is essential in learning to program. You can many examples and explanations on [Stack Exchange](http://stackexchange.com) and similar online forums. Taking one or two lines without attribution is OK; if you use a longer chunk of code found online, add a #comment with the source’s URL.
+-  Imitating and modifying others’ code is essential in learning to program. You can many examples and explanations on [Stack Overflow](https://stackoverflow.com/) and similar online forums. Taking one or two lines without attribution is OK; if you use a longer chunk of code found online, add a #comment with the source’s URL.
 
 -   Begin assignments early. If you realize what you had in mind is more difficult than expected, talk to the instructor about choosing an alternative.
 
