@@ -36,13 +36,17 @@ sentence
 
     A green hunting cap squeezed the top of a fleshy balloon of a head.
 
-We’ll be using lists (which are indicated by brackets []) a lot in the coming weeks. To review Python’s slice notation, we'll create a variable "words" and assign it a list of strings, then we'll assign a subset of the list to a new variable. Viewing the new variable "words2", shows the result.
+We’ll be using lists (which are indicated by brackets []) a lot in the coming weeks. To review Python’s slice notation, we'll create a variable "words" and assign it a list of strings, then we'll assign a subset of the list to a new variable. Viewing the new variable "words_2", shows the result.
 
-    words = ['A', 'green', 'hunting', 'cap', 'squeezed']
-    words2 = words[2:4]
-    words2
+```
+words = ['A', 'green', 'hunting', 'cap', 'squeezed']
 
-The Python shell should print `['hunting', 'cap']`, i.e., the subset of the list "words" from index 2 to index 3. An *index* refers to a position within an ordered list.In general, `list_name[start:end]`, where "start" and "end" are integers, returns a subset of "list-name" from index `start` to `end-1`. The "end minus 1" bit may seem odd, but in practice it makes slice notation more readable. The snippet above, for instance, gives us a list containing 2 items, equal to 4-2. And if we want to excerpt the first three items in a list, the following notation will do the trick.
+words_2 = words[2:4]
+
+words_2
+```
+
+The Python shell should print `['hunting', 'cap']`, i.e., the subset of the list "words" from index 2 to index 3. An *index* refers to a position within an ordered list. In general, `list_name[start:end]`, where "start" and "end" are integers, returns a subset of "list-name" from index `start` to `end-1`. The "end minus 1" bit may seem odd, but in practice it makes slice notation more readable. The snippet above, for instance, gives us a list containing 2 items, equal to 4 minus 2. And if we want to excerpt the first three items in a list, the following notation will do the trick.
 
     words[:3]
 
@@ -50,7 +54,7 @@ Recall that omitting an index number before or after the colon means you want to
 
     words[2:]
 
-If you want to excerpt the last three entries in a list without counting from the beginning, use a negative number before the colon.
+If you want to excerpt the last three entries in a list, use a negative number before the colon.
 
     words[-3:]
 
@@ -62,21 +66,31 @@ To reverse the order of a list, add an extra colon and "-1."
 
     words[::-1]
 
-It’s important to note that in Python, every string is a list of characters under the hood. We can thus reverse the spelling of a sentence like so.
+It’s important to note that in Python, every string behaves like a list of characters. We can thus reverse the spelling of a sentence like so.
 
-    sentence = "A green hunting cap squeezed the top of a fleshy balloon of a head."
-    sentence[::-1]
+```
+sentence = "A green hunting cap squeezed the top of a fleshy balloon of a head."
+
+sentence[::-1]
+```
 
 If want to break our sentence into words, we can use the `split()` function to create a list of substrings with the space character as delimiter.
 
-    words = sentence.split(' ')
-    words
+```
+words = sentence.split(' ')
 
-The `join()` function reverses the process, inserting a chosen string (here, a space) between each item in a list. Note that "sentence2" below is identical to our original "sentence" string.
+words
+```
 
-    sentence2 = ' '.join(words)
-    sentence2
-    sentence
+The `join()` function reverses the process, inserting a chosen string (here, a space) between each item in a list. Note that "sentence_2" below is identical to our original "sentence" string.
+
+```
+sentence_2 = ' '.join(words)
+
+sentence_2
+
+sentence
+```
 
 #### Quick Exercise
 Using the techniques outlined above, reverse the order of words in our sentence and combine them into a single string.
@@ -88,8 +102,11 @@ Using the techniques outlined above, reverse the order of words in our sentence 
 #### Review Continued
 Another useful string function is `replace()`, which lets us swap out one substring for another.
 
-    sentence3 = sentence.replace('hunting','baseball')
-    sentence3
+```
+sentence_3 = sentence.replace('hunting','baseball')
+
+sentence_3
+```
 
 Finally, note that a number can be represented as one of three data types: integer, float, or string.
 
@@ -100,7 +117,7 @@ Finally, note that a number can be represented as one of three data types: integ
     sample_float
     sample_string
 
-We can convert among these formats using the `int()`, `float()`, and `str()` functions. After assigning the values below, enter each variable’s name and be sure you understand the result.
+We can convert among these formats using the `int()`, `float()`, and `str()` functions. Converting from one data type to another is known as "casting." After assigning the values below, enter each variable’s name and be sure you understand the result.
 
     cast_int = int(35.4)
     cast_float = float(35)
