@@ -105,16 +105,40 @@ Using the techniques outlined above, reverse the order of words in our sentence 
 >
 >     ' '.join(sentence.split(' ')[::-1])
 
-#### Review Continued
+#### The for loop
+
+We can use a `for loop` to refer to each item in a list in order, like so:
+
+```
+for word in words:
+    print(word)
+```
+
+The word "word" above is a temporary variable, which we use to refer to each item in the list. The following for loop will do the same thing.
+
+```
+for xyz in words:
+    print(xyz)
+```
+
+We often use for loops to transform each item in a list. The following snippet will print an uppercased version of each word.
+
+```
+for word in words:
+    print(word.upper())
+```
+
+#### More string manipulations
+
 Another useful string function is `replace()`, which lets us swap out one substring for another.
 
 ```
-sentence_3 = sentence.replace('hunting','baseball')
+sentence_3 = sentence.replace('hunting', 'baseball')
 
 sentence_3
 ```
 
-Finally, note that a number can be represented as one of three data types: integer, float, or string.
+Finally, note that a given number can be represented as one of three data types: integer, float, or string.
 
     sample_int = 35
     sample_float = 35.4
@@ -205,7 +229,7 @@ line.strip()
 
 #### Python Text I/O Continued
 
-Closing a file stream with `close()` when you’re done with it is good style, though it’s not strictly required. If you want to keep your code compliant yet crisp, the following format closes a file stream automatically.
+Closing a file stream with `close()` when you’re done with it is good style, though it’s not strictly required. If you want to keep your code tidy and succinct, the following format will close a file stream automatically.
 
 ```
 swift_lines = []
