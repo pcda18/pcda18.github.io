@@ -170,15 +170,15 @@ Now we’ll review reading and writing text files from the Python environment. V
 - [http://www.gutenberg.org/ebooks/623](http://www.gutenberg.org/ebooks/623)
 - [mirror](https://raw.githubusercontent.com/pcda18/pcda-datasets/master/week-02/pg623.txt)
 
-First we’ll assign the file’s pathname to the variable `filepath` and create the file stream object we’ll use to read its contents. Open the Python shell and enter the following lines.
+First we’ll assign the file’s pathname to the variable `pathname` and create the file stream object we’ll use to read its contents. Open the Python shell and enter the following lines.
 
 ```
-filepath = "/sharedfolder/pg623.txt"
-file = open(filepath, encoding='utf8')
+pathname = "/sharedfolder/pg623.txt"
+file = open(pathname, encoding='utf8')
 ```
 
 <!--
-file = open(filepath, encoding='utf8')
+file = open(pathname, encoding='utf8')
 -->
 
 Then we’ll make an empty list called `swift_lines` and iterate through our file stream using a for loop, adding each line to the list as we go.
@@ -234,14 +234,14 @@ Closing a file stream with `close()` when you’re done with it is good style, t
 ```
 swift_lines = []
 
-with open(filepath, encoding='utf8') as file:
+with open(pathname, encoding='utf8') as file:
      for line in file:
            swift_lines.append(line)
 ```
 
 Or you can use this command, which does the same in one line.
 
-    swift_lines = open(filepath, encoding='utf8').readlines()
+    swift_lines = open(pathname, encoding='utf8').readlines()
 
 Note that calling `readlines()` creates a list of all lines in a text file, including any newline characters (in this case, `\n` ). Let's take a look at 5 lines from our list.
 
@@ -255,7 +255,7 @@ Note that calling `readlines()` creates a list of all lines in a text file, incl
 We could easily use a for loop with the `strip()` function to remove newlines from each string in the list, but the following line does the same in a shorter form. Here `open()` creates a file stream and `read()` returns the file’s contents as a single string. Finally, `splitlines()` returns a list of lines in the string `some_text`, removing newline characters along the way. Let's load the file using `splitlines()` and compare the results.
 
 ```
-swift_lines = open(filepath, encoding='utf8').read().splitlines()
+swift_lines = open(pathname, encoding='utf8').read().splitlines()
 
 swift_lines[100:105]
 ```
