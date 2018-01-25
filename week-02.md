@@ -141,7 +141,7 @@ A string that includes only numbers and possibly a decimal point — no commas o
 
 
 #### Text I/O in Python
-Now we’ll review reading and writing text files from the Python environment. Visit Project Gutenberg or the mirror provided and save the plain text version of Swift's *The Battle of the Books, and other Short Pieces* to your /sharedfolder on your desktop. It's a collection of essays, including a line Toole references in the title _A Confederacy of Dunces_.
+Now we’ll review reading and writing text files from the Python environment. Visit Project Gutenberg or the mirror provided and save the plain text version of Swift's *The Battle of the Books, and other Short Pieces* to `sharedfolder` on your desktop. It's a collection of essays, including a line Toole references in the title _A Confederacy of Dunces_.
 
 - [http://www.gutenberg.org/ebooks/623](http://www.gutenberg.org/ebooks/623)
 - [mirror](https://raw.githubusercontent.com/pcda18/pcda-datasets/master/week-02/pg623.txt)
@@ -150,13 +150,18 @@ First we’ll assign the file’s pathname to the variable `filepath` and create
 
 ```
 filepath = "/sharedfolder/pg623.txt"
-file = open(filepath, encoding='utf8')
+file = open(filepath)
 ```
+
+<!--
+file = open(filepath, encoding='utf8')
+-->
 
 Then we’ll make an empty list called `swift_lines` and iterate through our file stream using a for loop, adding each line to the list as we go.
 
 ```
 swift_lines = []
+
 for line in file:
     swift_lines.append(line)
 ```
@@ -165,6 +170,7 @@ Finally, we’ll close our file stream and view a line from our list.
 
 ```
 file.close()
+
 swift_lines[1000]
 ```
 
@@ -179,7 +185,7 @@ swift_lines[1000]
 > You would use this pathname:
 >   "/sharedfolder/Artists.csv"
 
-Each line ends with `\r\n` , a carriage return followed by a line feed character, suggesting the file was created in a Windows text editor. As Oualline and Noria discuss in this week’s readings, Unix-like systems generally use `\n` to indicate newlines, while `\r\n` is standard in Windows and DOS. To complicate matters, early Apple computers used `\r` on its own for the same purpose.
+Each line ends with `\n`, a "newline" or "line feed" character. Unix-like systems generally use `\n` to indicate newlines, while `\r\n` is standard in Windows and DOS. To complicate matters, early Apple computers used `\r` on its own for the same purpose.
 
 > **Tip:** While the term "newline" refers to any character or character combination used to mark the end of a line, when we say "newline character" for the rest of the course we’ll mean `\n` (formally called "line feed") unless otherwise noted.
 
@@ -189,35 +195,45 @@ Our text file from Project Gutenberg is broken into short lines, none longer tha
 
 Whether we’re adapting to quirks of history or fixing typing mistakes, we’ll often find it helpful to get rid of whitespace characters (newlines, spaces, tabs) at the beginning and end of a given string. For a string named `line`, `line.strip()` will return a copy of the string with all newlines and other whitespace characters removed from either end.
 
-    line = swift_lines[1000]
-    line
-    line.strip()
+```
+line = swift_lines[1000]
+
+line
+
+line.strip()
+```
 
 #### Python Text I/O Continued
 
 Closing a file stream with `close()` when you’re done with it is good style, though it’s not strictly required. If you want to keep your code compliant yet crisp, the following format closes a file stream automatically.
 
-    swift_lines = []
-    with open(filepath, encoding='utf8') as file:
-         for line in file:
-               swift_lines.append(line)
+```
+swift_lines = []
+
+with open(filepath) as file:
+     for line in file:
+           swift_lines.append(line)
+```
 
 Or you can use this command, which does the same in one line.
 
-    swift_lines = open(filepath, encoding='utf8').readlines()
+    swift_lines = open(filepath).readlines()
 
-Note that calling `readlines()` creates a list of all lines in a text file, including any newline characters (in this case, `\r\n` ). Let's take a look at 5 lines from our list.
+Note that calling `readlines()` creates a list of all lines in a text file, including any newline characters (in this case, `\n` ). Let's take a look at 5 lines from our list.
 
     swift_lines[100:105]
 
 > _Output:_
 >
->     ["their after-life.  In July, 1692, with Sir William Temple's help,\r\n", 'Jonathan Swift commenced M.A. in Oxford, as of Hart Hall.  In 1694,\r\n', "Swift's ambition having been thwarted by an offer of a clerkship, of 120\r\n", 'pounds a year, in the Irish Rolls, he broke from Sir William Temple, took\r\n', 'orders, and obtained, through other influence, in January, 1695, the\r\n']
+>     ["their after-life.  In July, 1692, with Sir William Temple's help,\n", 'Jonathan Swift commenced M.A. in Oxford, as of Hart Hall.  In 1694,\n', "Swift's ambition having been thwarted by an offer of a clerkship, of 120\n", 'pounds a year, in the Irish Rolls, he broke from Sir William Temple, took\n', 'orders, and obtained, through other influence, in January, 1695, the\n']
 
-We could easily use a for loop with the `strip()` function to remove newlines from each string in the list, but the following line does the same in a shorter form. Here `open()` creates a file stream and `read()` returns the file’s contents as a single string. Finally, `some_text.splitlines()` returns a list of lines in the string `some_text`, removing newline characters along the way. Let's load the file using `splitlines()` and compare the results.
+We could easily use a for loop with the `strip()` function to remove newlines from each string in the list, but the following line does the same in a shorter form. Here `open()` creates a file stream and `read()` returns the file’s contents as a single string. Finally, `splitlines()` returns a list of lines in the string `some_text`, removing newline characters along the way. Let's load the file using `splitlines()` and compare the results.
 
-    swift_lines = open(filepath, encoding='utf8').read().splitlines()
-    swift_lines[100:105]
+```
+swift_lines = open(filepath).read().splitlines()
+
+swift_lines[100:105]
+```
 
 > _Output:_
 >
@@ -225,8 +241,11 @@ We could easily use a for loop with the `strip()` function to remove newlines fr
 
 If we’d like to convert our list of lines to a block of flowable text, we can use `join()` to combine all items in the list `lines`, each separated by a space. Note that we end up losing the paragraph breaks we saw in the original file.
 
-    swift_text = ' '.join(swift_lines)
-    swift_text[10005:10223]
+```
+swift_text = ' '.join(swift_lines)
+
+swift_text[10005:10223]
+```
 
 > _Output:_
 >
@@ -238,7 +257,9 @@ The Python module `urllib.request`  makes grabbing text from the Web as easy as 
 
 ```
 from urllib.request import urlopen
+
 url = "https://raw.githubusercontent.com/pcda18/pcda-datasets/master/week-02/Toole_A-Confederacy-of-Dunces_Ch1-2.txt"
+
 toole_lines =  urlopen(url).read().decode('utf8').splitlines()
 ```
 
@@ -272,7 +293,7 @@ for line in toole_lines:
         print(line)
 ```
 
-While you’re at it, use a for loop to identify the sentence by Jonathan Swift (in `swift_lines`) that Toole references in his title _A Confederacy of Dunces_. Try to resist the urge to use ⌘+F in TextWrangler.
+While you’re at it, use a for loop to identify the sentence by Jonathan Swift (in `swift_lines`) that Toole references in his title _A Confederacy of Dunces_. Try to resist the urge to use ⌘+F in your text editor.
 
 #### Defining Functions
 
@@ -287,7 +308,7 @@ def square(number):
 square(11)
 ```
 
-Note that functions can be nested within one another. The following will call the `square` function twice.
+Note that the output of one function can be used as the input of another. The following will call the `square` function twice.
 
     square(square(11))
 
@@ -313,8 +334,11 @@ pluralize("eagle")
 
 Python is weakly typed, meaning intended data types don’t need to be specified in advance when we create a function. Applying an operation to a value of the wrong type will produce an error.
 
-    square("eagle")
-    pluralize(1960)
+```
+square("eagle")
+
+pluralize(1960)
+```
 
 Using the `str`, `int`, and `float` functions, we can cast values as string, int, or float data types (when doing so is possible).
 
@@ -344,6 +368,7 @@ This is equivalent to the following:
 Note that `randint` is inclusive, so it may output 49, the second argument we passed it.
 
 #### Quick Assignments
+
 Assign a list of strings to a variable — in this case, a collection of foods mentioned in Toole’s novel.
 
     foods = ['macaroon', 'hot dog', 'jelly doughnut', 'Dr. Nut', 'wine cake', 'Dutch cookies', 'stuffed eggplant', 'jumbalaya with shrimps', 'brownie']
@@ -353,7 +378,8 @@ _Assignment:_ Write a function that accepts a list of strings and returns a rand
 > _A possible solution:_
 >
 >     def random_choice(list):
->          return list[int(random.random()*len(list))]
+>          index = int(random.random()*len(list))
+>          return list[index]
 >     
 >     random_choice(foods)
 
@@ -370,7 +396,7 @@ _Assignment:_ Create a new function that returns a list of 3 randomly chosen str
 >     
 >     random_three(foods)
 
-_Assignment:_ Modify the function to return a list of 3 random strings containing the letter "a." Don’t worry about repetitions.
+_Assignment:_ Modify the function to return a list of 3 random strings containing the letter "a". Don’t worry about repetitions.
 
 > _A possible solution:_
 >   
@@ -390,7 +416,7 @@ As you might expect, Python provides tools to speed up the work you just did by 
 
 This command returns a list of three random selections without repetition.
 
-    random.sample(foods,3)
+    random.sample(foods, 3)
 
 And this one shuffles the order of a list’s contents, overwriting the original list.
 
@@ -418,7 +444,7 @@ len(words)
 Enter the following to generate a list of 50 random words.
 
 ```
-random.sample(words,50)
+random.sample(words, 50)
 ```
 
 Is there anything notable about the words in this random list? If so, how might you explain the pattern?
@@ -513,6 +539,7 @@ _Exercise:_ Try using a different text and compare the results.
 
 
 #### Launching Jupyter
+
 First, leave the Docker terminal (ctrl+p, then ctrl+q, like we did at the end of last week). Restart the Docker container to run a browser instead of a Terminal applicationso that we can launch Jupyter.
 
 ```
@@ -623,6 +650,7 @@ Enter the following in a cell.
 
 ```python3
 from urllib.request import urlopen
+
 url = "http://www.amazon.com/Confederacy-Dunces-John-Kennedy-Toole/dp/0802130208"
 page = urlopen(url).read().decode('utf8')
 
@@ -641,8 +669,7 @@ Now let's chop off the bottom of the page the same way.
 page_middle = page_bottom.split("Set up an Amazon Giveaway")[0]
 ```
 
-Next we’ll split the remaining text into individual reviews. Note that the "review rating" HTML class is used at the beginning of each review. We’ll split our page
-at those points, using triple quotes to include the end of the HTML tag.
+Next we’ll split the remaining text into individual reviews. Note that the "review rating" HTML class is used at the beginning of each review. We’ll split our page at those points, using triple quotes to include the end of the HTML tag.
 
 ```
 review_list = page_middle.split('''review-rating">''')
@@ -656,7 +683,7 @@ Since the first item in our list of segments comes before the first review, we�
 
 Now the first element of our list should begin with a review.
 
-    print(review_list[0])
+    review_list[0]
 
 Now let’s remove the code following each review. Since the text "Was this review helpful to you?" appears after every review, let’s use that as our delimiter. We’ll split each segment at that point and discard everything that follows it using list bracket notation.
 
@@ -667,7 +694,8 @@ for review in review_list:
      review_list_2.append(review.split("Was this review helpful to you?")[0])
 
 test_review = review_list_2[0]
-print(test_review)
+
+test_review
 ```
 
 Now that our reviews are roughly cut down to size, let’s clean them up by removing HTML tags. The following function uses Python’s `re` module for working with regular expressions to replace any text between `<` and `>` with a newline. We’ll talk more about regular expressions later in the course.
