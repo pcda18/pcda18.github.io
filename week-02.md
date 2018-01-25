@@ -575,7 +575,7 @@ _Exercise:_ Try using a different text and compare the results.
 
 
 
-#### View list of all installed Python modules
+#### View a list of all installed Python modules
 
 Enter the following command to enter Python’s help shell.
 
