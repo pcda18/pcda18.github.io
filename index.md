@@ -237,9 +237,7 @@ pip install --user -U textblob
 
 python -m textblob.download_corpora
 -->
-<! --
-Note: assign Text II this week -- have them turn in their Jupyter notebook.
--->
+
 
 
 
