@@ -46,7 +46,9 @@ words_2 = words[2:4]
 words_2
 ```
 
-The Python shell should print `['hunting', 'cap']`, i.e., the subset of the list "words" from index 2 to index 3. An *index* refers to a position within an ordered list. In general, `list_name[start:end]`, where "start" and "end" are integers, returns a subset of "list-name" from index `start` to `end-1`. The "end minus 1" bit may seem odd, but in practice it makes slice notation more readable. The snippet above, for instance, gives us a list containing 2 items, equal to 4 minus 2. And if we want to excerpt the first three items in a list, the following notation will do the trick.
+The Python shell should display `['hunting', 'cap']`, i.e., the subset of the list "words" from index 2 to index 3. An *index* refers to a position within an ordered list.
+
+In general, `list_name[start:end]`, where "start" and "end" are integers, returns a subset of "list_name" from index `start` to `end minus 1`. The "end minus 1" bit may seem odd, but in practice it makes slice notation more readable. For instance, if we want to excerpt the first three items in a list, the following notation will do the trick.
 
     words[:3]
 
@@ -62,7 +64,11 @@ Likewise, the following will slice off the final 3 items in our list, returning 
 
     words[:-3]
 
-To reverse the order of a list, add an extra colon and "-1."
+To extract every other item in a list, add an extra colon and the number "2".
+
+    words[::2]
+
+And to reverse the order of a list, add an extra colon and "-1".
 
     words[::-1]
 
