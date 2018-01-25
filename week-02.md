@@ -535,7 +535,7 @@ _Exercise:_ Download a text file from Project Gutenberg and print 14 randomly ch
 >     url = "https://raw.githubusercontent.com/pcda18/pcda-datasets/master/week-02/pg623.txt"
 >     swift_lines = urlopen(url).read().decode('utf8').splitlines()
 >     
->     random_lines = random.sample(swift_lines,14)
+>     random_lines = random.sample(swift_lines, 14)
 >     
 >     for line in random_lines:
 >          print(line)
@@ -574,46 +574,6 @@ _Exercise:_ Try using a different text and compare the results.
 >         print(line)
 
 
-#### Launching Jupyter
-
-First, leave the Docker terminal (ctrl+p, then ctrl+q, like we did at the end of last week). Restart the Docker container to run a browser instead of a Terminal applicationso that we can launch Jupyter.
-
-```
-docker rm -f pcda_ubuntu
-docker pull pcda18/ubuntu-image
-docker run --name pcda_ubuntu -ti -p 8889:8889 --volume ~/Desktop/sharedfolder/:/sharedfolder/ pcda18/ubuntu-image
-```
-
-Windows 10 version:
-```
-docker rm -f pcda_ubuntu
-docker pull pcda18/ubuntu-image
-docker run --name pcda_ubuntu -ti -p 8889:8889 --volume C:\Users\***username_here***\Desktop\sharedfolder:/sharedfolder/ pcda18/ubuntu-image
-```
-
-Open any browser and type (your Juypter Notebook will launch):
-```
-localhost:8889
-
-```
-![](week/2/Image-1.png)
-
-Click the "New" in the upper right, then choose "Python 3" from the drop-down menu.
-
-![](week/2/Image-2.png)
-
-![](week/2/Image-3.png)
-
-You’re now in the Jupyter environment. Here, you can create a series of "cells" for individual chunks of code, which can be saved and run repeatedly. Click the ✚ icon on the top left to add a new cell.
-
-Type a line of code that prints a string. To run the current cell, either click the `►❙` icon or go to the "Cell" menu and choose "Run Cells."
-
-    print("Hello Jupyter!")
-
-![](week/2/Image-4.png)
-
-
-Note that each cell’s output is displayed right below to the the code that produced it, which is a major benefit of working in Jupyter. We’ll learn more about the Jupyter environment next week. For now, switch back to Terminal.
 
 #### View list of all installed Python modules
 
@@ -678,9 +638,50 @@ The `os.system` function lets us issue commands at the level of the system shell
 
 
 
+#### Launching Jupyter
+
+First, leave the Docker terminal (ctrl+p, then ctrl+q, like we did at the end of last week). Restart the Docker container without the word "bash" at the end to launch Jupyter's browser interface.
+
+```
+docker rm -f pcda_ubuntu
+docker pull pcda18/ubuntu-image
+docker run --name pcda_ubuntu -ti -p 8889:8889 --volume ~/Desktop/sharedfolder/:/sharedfolder/ pcda18/ubuntu-image
+```
+
+Windows 10 version:
+```
+docker rm -f pcda_ubuntu
+docker pull pcda18/ubuntu-image
+docker run --name pcda_ubuntu -ti -p 8889:8889 --volume C:\Users\***username_here***\Desktop\sharedfolder:/sharedfolder/ pcda18/ubuntu-image
+```
+
+Open any browser and enter the following in the URL bar to open Jupyter.
+
+```
+localhost:8889
+```
+![](week/2/Image-1.png)
+
+Click the "New" in the upper right, then choose "Python 3" from the drop-down menu.
+
+![](week/2/Image-2.png)
+
+![](week/2/Image-3.png)
+
+You’re now in the Jupyter environment. Here, you can create a series of "cells" for individual chunks of code, which can be saved and run repeatedly. Click the ✚ icon on the top left to add a new cell.
+
+Type a line of code that prints a string. To run the current cell, either click the `►❙` icon or go to the "Cell" menu and choose "Run Cells."
+
+    print("Hello Jupyter!")
+
+![](week/2/Image-4.png)
+
+Note that each cell’s output is displayed right below to the the code that produced it, which is a major benefit of working in Jupyter. We’ll learn more about the Jupyter environment next week. For now, switch back to Terminal.
+
+
 #### Downloading Reviews from Amazon (the hard way)
 
-Start a new Python 3 notebook by going to `File/New Notebook` in the Jupyter window.
+Start a new Python 3 notebook by going to `File > New Notebook` in the Jupyter window.
 
 Enter the following in a cell.
 
