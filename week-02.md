@@ -32,11 +32,11 @@ sentence = "A green hunting cap squeezed the top of a fleshy balloon of a head."
 sentence
 ```
 
-**Output:**
+> **Output:**
+>
+>     A green hunting cap squeezed the top of a fleshy balloon of a head.
 
-    A green hunting cap squeezed the top of a fleshy balloon of a head.
-
-We’ll be using lists (which are indicated by brackets []) a lot in the coming weeks. To review Python’s slice notation, we'll create a variable "words" and assign it a list of strings, then we'll assign a subset of the list to a new variable. Viewing the new variable "words_2", shows the result.
+We’ll be using lists (which are indicated by square brackets) a lot in the coming weeks. To review Python’s slice notation, we'll create a variable "words" and assign it a list of strings, then we'll assign a subset of the list to a new variable. Viewing the new variable "words_2", shows the result.
 
 ```
 words = ['A', 'green', 'hunting', 'cap', 'squeezed']
