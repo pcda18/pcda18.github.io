@@ -72,7 +72,15 @@ And to reverse the order of a list, add an extra colon and "-1".
 
     words[::-1]
 
-It’s important to note that in Python, every string behaves like a list of characters. We can thus reverse the spelling of a sentence like so.
+The `len()` function returns the number of items in a list.
+
+    len(words)
+
+It’s important to note that in Python, every string behaves like a list of characters. The following returns the number of characters in the string "sentence".
+
+    len(sentence)
+
+Similarly, we can reverse the spelling of a sentence like so.
 
 ```
 sentence = "A green hunting cap squeezed the top of a fleshy balloon of a head."
@@ -379,8 +387,11 @@ It is often useful to generate random numbers or make random selections from a s
 
 Import the `random` module and generate a random float X, where 0 \<= X \< 1.
 
-    import random
-    random.random()
+```
+import random
+
+random.random()
+```
 
 Return a random integer from 0 to 49.
 
