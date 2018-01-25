@@ -150,7 +150,7 @@ First we’ll assign the file’s pathname to the variable `filepath` and create
 
 ```
 filepath = "/sharedfolder/pg623.txt"
-file = open(filepath)
+file = open(filepath, encoding='utf8')
 ```
 
 <!--
@@ -185,7 +185,7 @@ swift_lines[1000]
 > You would use this pathname:
 >   "/sharedfolder/Artists.csv"
 
-Each line ends with `\n`, a "newline" or "line feed" character. Unix-like systems generally use `\n` to indicate newlines, while `\r\n` is standard in Windows and DOS. To complicate matters, early Apple computers used `\r` on its own for the same purpose.
+Each line ends with `\r\n` , a carriage return followed by a line feed character, suggesting the file was created in a Windows text editor. As Oualline and Noria discuss in this week’s readings, Unix-like systems generally use `\n` to indicate newlines, while `\r\n` is standard in Windows and DOS. To complicate matters, early Apple computers used `\r` on its own for the same purpose.
 
 > **Tip:** While the term "newline" refers to any character or character combination used to mark the end of a line, when we say "newline character" for the rest of the course we’ll mean `\n` (formally called "line feed") unless otherwise noted.
 
@@ -210,14 +210,14 @@ Closing a file stream with `close()` when you’re done with it is good style, t
 ```
 swift_lines = []
 
-with open(filepath) as file:
+with open(filepath, encoding='utf8') as file:
      for line in file:
            swift_lines.append(line)
 ```
 
 Or you can use this command, which does the same in one line.
 
-    swift_lines = open(filepath).readlines()
+    swift_lines = open(filepath, encoding='utf8').readlines()
 
 Note that calling `readlines()` creates a list of all lines in a text file, including any newline characters (in this case, `\n` ). Let's take a look at 5 lines from our list.
 
@@ -225,12 +225,13 @@ Note that calling `readlines()` creates a list of all lines in a text file, incl
 
 > _Output:_
 >
->     ["their after-life.  In July, 1692, with Sir William Temple's help,\n", 'Jonathan Swift commenced M.A. in Oxford, as of Hart Hall.  In 1694,\n', "Swift's ambition having been thwarted by an offer of a clerkship, of 120\n", 'pounds a year, in the Irish Rolls, he broke from Sir William Temple, took\n', 'orders, and obtained, through other influence, in January, 1695, the\n']
+>     ["their after-life.  In July, 1692, with Sir William Temple's help,\r\n", 'Jonathan Swift commenced M.A. in Oxford, as of Hart Hall.  In 1694,\r\n', "Swift's ambition having been thwarted by an offer of a clerkship, of 120\r\n", 'pounds a year, in the Irish Rolls, he broke from Sir William Temple, took\r\n', 'orders, and obtained, through other influence, in January, 1695, the\r\n']
+
 
 We could easily use a for loop with the `strip()` function to remove newlines from each string in the list, but the following line does the same in a shorter form. Here `open()` creates a file stream and `read()` returns the file’s contents as a single string. Finally, `splitlines()` returns a list of lines in the string `some_text`, removing newline characters along the way. Let's load the file using `splitlines()` and compare the results.
 
 ```
-swift_lines = open(filepath).read().splitlines()
+swift_lines = open(filepath, encoding='utf8').read().splitlines()
 
 swift_lines[100:105]
 ```
