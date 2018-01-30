@@ -1,0 +1,42 @@
+# PCDA week 3 plans
+
+
+## Let’s go around for a minute and talk a bit about our computers.
+
+Where’d you get your laptop, how old is it?
+
+ - or -
+
+Tell us about your first computer.
+
+
+Part of hacker culture is the lore — what’s been done, who’s famous. Like graffiti artists or any other culture.
+
+
+## Group question
+
+Talk about your first computer.
+
+
+### Demo
+
+Demo: using an API to grab some JSON records.
+
+## Slow walkthrough
+
+- Transferring (w/ filtering) from one list to another with a for loop.
+
+- List comprehensions — doing it in 1 line, very Pythonic
+
+- Pick an api from a list and start exploring the tree to find a given field. Make a list of titles/urls/etc.
+
+
+## Dictionaries
+
+- A given key can point to numbers, text strings, lists, dictionaries, whatever.
+
+- Point: Dictionaries and JSON objects are basically the same thing.
+
+- Make a list of PDFs linked on a page and download them all, pausing between each.
+
+# DRM Demo
