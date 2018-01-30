@@ -1,11 +1,10 @@
-##    Character Encodings are Tricky
-##               - or -
-## The Big Difference Between Python 2.x and 3
+##    Character Encoding is Tricky
+## . . . . . . . . . . . - or - . . . . . . . . . . .
+## The Big Difference Between Python 2.7 and Python 3
 
+A Python "str" object — i.e., a text string — in Python 2 is typically encoded in 8-bit ASCII, or "extended ASCII," while Python 3 uses Unicode by default. 8-bit extended ASCII has 256 options for each unit in a string of characters, while Unicode can in theory represent 1.1 million characters (though the standard only includes ~140,000 characters at the moment).
 
-A "str" object -- i.e., a text string -- in Python 2 is typically encoded in 8-bit ASCII, or "extended ASCII," while Python 3 uses Unicode by default. 8-bit extended ASCII has 256 options for each unit in a string of characters, while Unicode can in theory represent 1.1 million characters (though the standard only includes ~140,000 characters at the moment).
-
-Every character in a text file is represented by a number from 0 to whatever maximum value, expressed in binary 1s and 0s. Old-school ASCII (the plainest of plain text), is a 7-bit encoding format: Because 2^7 = 128, ASCII lets you use a maximum of 128 possible characters. The capital letter "A" corresponds to 65 in decimal, or 1000001 in binary. "B" is decimal 66, or 1000010, and so on. Each number in a given character encoding format is called a "code point." Here's a handy ASCII table:
+Every character in a text file is represented by a number from 0 to whatever maximum value, expressed in binary 1s and 0s. Old-school ASCII (the plainest of plain text), is a 7-bit encoding format. Because 2^7 = 128, 7-bit ASCII lets you use a maximum of 128 possible characters. The capital letter "A" corresponds to 65 in decimal, or 1000001 in binary. "B" is decimal 66, or 1000010, and so on. Each number in a given character encoding format is called a "code point." Here's a handy ASCII table:
 https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ASCII-Table-wide.svg/1024px-ASCII-Table-wide.svg.png
 
 If you use 8 bits instead of 7 to represent an ASCII character, you get 8-bit extended ASCII: 256 options instead of 128. (8 bits, incidentally, is known as a "byte.") Where things get tricky is that different encoding formats have used those extra 128 options differently over the years.
