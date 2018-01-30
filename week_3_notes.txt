@@ -9,13 +9,18 @@ Where’d you get your laptop, how old is it?
 
 Tell us about your first computer.
 
+## I'm here to help you do things you find interesting.
+
+I'm a hands-on guide, an advice-giver, someone who wants to fill in the practical gaps that other classes are missing.
 
 Part of hacker culture is the lore — what’s been done, who’s famous. Like graffiti artists or any other culture.
 
+You all have your own kinda subcultures,
 
-## Group question
+### Question
 
-Talk about your first computer.
+Has anyone done work in
+
 
 
 ### Demo
@@ -28,7 +33,14 @@ Demo: using an API to grab some JSON records.
 
 - List comprehensions — doing it in 1 line, very Pythonic
 
-- Pick an api from a list and start exploring the tree to find a given field. Make a list of titles/urls/etc.
+- Pick an API from a list and start exploring the tree to find a given field. Make a list of titles/urls/etc.
+
+
+### List of APIs:
+
+- V&A Museum
+- Crossref
+- Google Search
 
 
 ## Dictionaries
@@ -39,4 +51,9 @@ Demo: using an API to grab some JSON records.
 
 - Make a list of PDFs linked on a page and download them all, pausing between each.
 
-# DRM Demo
+
+## Break
+
+## Reformatting dates
+
+- notebook in copy_me/ directory
