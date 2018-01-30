@@ -55,5 +55,8 @@ Demo: using an API to grab some JSON records.
 ## Break
 
 ## Reformatting dates
+    - notebook in copy_me/ directory
 
-- notebook in copy_me/ directory
+
+## How to browse GitHub
+    - download and run Jupyter notebook files
