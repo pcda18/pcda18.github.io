@@ -28,7 +28,7 @@ Python 2 can work with Unicode strings, but it takes a bit of extra effort. Sinc
 
 some_variable_name = u'This is a Unicode string in Python 2.'
 
-In Python 3, a "str" object is Unicode by default: Each unit in the string is just a single code point in the Unicode standard. Python 3 can also work with byte strings, but it too takes extra effort. Since they're the exception, byte strings are represented in Python 3 with a 'b' before the quotation mark, like so:
+In Python 3, a "str" object is Unicode by default: Each unit in the string is just a single code point in the Unicode standard. Python 3 can also work with byte strings, but it takes extra effort. Since they're the exception, byte strings are represented in Python 3 with a 'b' before the quotation mark, like so:
 
 some_variable_name = b'This is a byte string in Python 3.'
 
