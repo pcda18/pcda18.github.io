@@ -1,18 +1,13 @@
-## Week 3 Outline: Data Modeling Outline
-
-Sample datasets from The Museum of Modern Art (MoMA) [via GitHub](https://github.com/MuseumofModernArt/collection). Download these files to your /sharedfolder/ on your desktop.
-- [Artists.csv](https://media.githubusercontent.com/media/MuseumofModernArt/collection/master/Artists.csv)
-- [Artworks.csv](https://media.githubusercontent.com/media/MuseumofModernArt/collection/master/Artworks.csv)
+## Week 3 Outline: Data Modeling
 
 #### Install LibreOffice
 
 Before we start class, download and install LibreOffice:
 - [https://www.libreoffice.org/](https://www.libreoffice.org/)
 
+#### Launching Docker
 
-#### Run Docker container
-
-In macOS, open Terminal and enter the following commands to launch the Docker container:
+Open Terminal in macOS and launch our Docker container:
 
 ```
 docker rm -f pcda_ubuntu
@@ -20,7 +15,7 @@ docker pull pcda18/ubuntu-image
 docker run --name pcda_ubuntu -ti -p 8889:8889 --volume ~/Desktop/sharedfolder/:/sharedfolder/ pcda18/ubuntu-image
 ```
 
-In Windows 10, open PowerShell and enter the following commands to launch the Docker container:
+In Windows 10, open PowerShell and enter the following to launch the Docker container:
 
 ```
 docker rm -f pcda_ubuntu
@@ -28,8 +23,20 @@ docker pull pcda18/ubuntu-image
 docker run --name pcda_ubuntu -ti -p 8889:8889 --volume C:\Users\***username_here***\Desktop\sharedfolder:/sharedfolder/ pcda18/ubuntu-image
 ```
 
+## Quick Demo
 
-#### Open Jupyter Notebook (see notes in week 2)
+To follow along with the demo, save the following notebook file to `sharedfolder` on your desktop.
+- [Cassette Label Date Extraction](https://github.com/pcda18/pcda18.github.io/blob/master/copy_me/Cassette_Date_Reformat.ipynb)
+
+Now go to [localhost:8889](localhost:8889) in your browser and open the notebook file `Cassette_Date_Reformat.ipynb` in Jupyter.
+
+
+#### Tabular Data, a.k.a. Spreadsheets
+
+Sample datasets from The Museum of Modern Art ([MoMA](https://github.com/MuseumofModernArt/collection)) in CSV format. Download these files to `sharedfolder` on your desktop:
+
+- [Artists.csv](https://media.githubusercontent.com/media/MuseumofModernArt/collection/master/Artists.csv)
+- [Artworks.csv](https://media.githubusercontent.com/media/MuseumofModernArt/collection/master/Artworks.csv)
 
 #### CSV I/O in Python
 Paste the following code snippet into a new Jupyter notebook.
