@@ -1,5 +1,4 @@
-##  Character Encoding is Tricky
-### The Big Difference Between Python 2.7 and Python 3
+##  Character Encoding is Tricky: The Big Difference Between Python 2.7 and Python 3
 
 In Python 2, a "str" object — i.e., a text string — is typically encoded in 8-bit ASCII, or "extended ASCII," while Python 3 uses Unicode by default. 8-bit extended ASCII has 256 options for each unit in a string of characters, while Unicode can in theory represent 1.1 million characters (though the standard only includes ~140,000 characters at the moment).
 
