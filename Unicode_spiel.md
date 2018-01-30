@@ -26,25 +26,25 @@ So a "str" object in Python 2, by default, is just a string of bytes: one byte a
 
 Python 2 can work with Unicode strings, but it takes a bit of extra effort. Since they're generally the exception, they're denoted by a 'u' before the first quotation mark, like so:
 
-  some_variable_name = u'This is a Unicode string in Python 2.'
+    some_variable_name = u'This is a Unicode string in Python 2.'
 
 In Python 3, a "str" object is Unicode by default: Each unit in the string is just a single code point in the Unicode standard. Python 3 can also work with byte strings, but it too takes extra effort. Since they're the exception, byte strings are represented in Python 3 with a 'b' before the quotation mark, like so:
 
-  some_variable_name = b'This is a byte string in Python 3.'
+    some_variable_name = b'This is a byte string in Python 3.'
 
 Ultimately, the problem with Python 2 is that it might not throw an error if you try to combine a Unicode string and a byte string, or if you combine byte strings encoded in multiple extended ASCII formats. This can lead to maddeningly hard-to-find bugs if you're not cautious.
 
 Python 3, by contrast, makes you explicitly specify character encoding details if you're loading text from a format other than Unicode. If you're working with UTF-8, you should be A-OK. We can open a UTF-8 file called "pg623.txt" like so:
 
-  pathname = "/sharedfolder/pg623.txt"
-  swift_lines = open(pathname).read().splitlines()
+    pathname = "/sharedfolder/pg623.txt"
+    swift_lines = open(pathname).read().splitlines()
 
 Just to be safe, the urllib package in Python 3 will download text from the web as a byte stream, so you need to explicitly tell it to convert the text to Unicode:
 
 
-  from urllib.request import urlopen
-  url = 'http://example.com/index.html'
-  a_web_page = urlopen(url).read().decode('utf8')
+    from urllib.request import urlopen
+    url = 'http://example.com/index.html'
+    a_web_page = urlopen(url).read().decode('utf8')
 
 So that's my argument for using Python 3 instead of Python 2 for text processing. You may end up seeing a few more errors at the start of a project, but using Unicode for everything will save time and preserve your sanity once you start mixing real-world datasets together.
 
