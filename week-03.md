@@ -38,6 +38,8 @@ Sample datasets from The Museum of Modern Art ([MoMA](https://github.com/Museumo
 - [Artists.csv](https://media.githubusercontent.com/media/MuseumofModernArt/collection/master/Artists.csv)
 - [Artworks.csv](https://media.githubusercontent.com/media/MuseumofModernArt/collection/master/Artworks.csv)
 
+Or use any 
+
 #### CSV I/O in Python
 Paste the following code snippet into a new Jupyter notebook.
 
@@ -132,6 +134,7 @@ print('\nArtworks\n')
 for i in range(len(artwork_header)):
     print(str(i) + ' ' + artwork_header[i])
 ```
+
 #### Quick Assignment
 Write a piece of code that creates a new table (i.e., list of lists) containing only artists born in the 1880s.
 
@@ -195,7 +198,7 @@ import numpy as np
 np.mean(lifespans_1880s)
 ```
 
-This guide will use to `numpy.mean()` for the sake of clarity, but feel free to set up your environment however you like.
+This guide will use `numpy.mean()` for the sake of clarity, but feel free to set up your environment however you like.
 
 #### Quick Assignment
 Write a piece of code that creates a new table containing all artworks that include the term “Fluxus” in any metadata field.
@@ -247,7 +250,7 @@ c.most_common(10)
 Note that 1151 artworks are missing an entry for “medium,” with the term “(CONFIRM)” appearing 190 times.
 
 #### Quick Assignment
-Returning to our original MoMA metadata table, write a piece of code that extracts only works created in the 1960s (or another decade of your choosing). Since the date field in MoMA’s metadata doesn’t follow a strictly defined numerical format, you’ll have to think about how to interpret values like “1963,” “1963-5“, “c. 1963,” “c. 1960s,” etc.
+Returning to our original MoMA metadata table, write a piece of code that extracts only works created in the 1960s (or another decade of your choosing). Since the date field in MoMA’s metadata doesn’t follow a strictly defined numerical format, you’ll have to think about how to interpret values like “1963,” “1963-5," “c. 1963,” “c. 1960s,” etc.
 <!--Let students struggle with this a bit, then encourage them to settle on a relatively quick and dirty solution. The collection doesn’t have to be perfect; we’ll be cleaning the table in OpenRefine later.-->
 
  _A simple solution with high recall and low precision:_
