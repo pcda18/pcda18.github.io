@@ -23,9 +23,9 @@ docker pull pcda18/ubuntu-image
 docker run --name pcda_ubuntu -ti -p 8889:8889 --volume C:\Users\***username_here***\Desktop\sharedfolder:/sharedfolder/ pcda18/ubuntu-image
 ```
 
-## Quick Demo
+#### Notebook Files
 
-To follow along with the demo, save the following notebook file to `sharedfolder` on your desktop.
+Save the following Jupyter notebook files to `sharedfolder` on your desktop.
 
 - [3.1 CSV Input/Output](https://github.com/pcda18/pcda18.github.io/blob/master/Week-03.1_CSV-Input-Output.ipynb)
 
@@ -44,4 +44,3 @@ Sample datasets from The Museum of Modern Art ([MoMA](https://github.com/Museumo
 
 - [Artists.csv](https://media.githubusercontent.com/media/MuseumofModernArt/collection/master/Artists.csv)
 - [Artworks.csv](https://media.githubusercontent.com/media/MuseumofModernArt/collection/master/Artworks.csv)
-
