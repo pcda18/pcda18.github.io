@@ -1,25 +1,13 @@
 # PCDA week 3 plans
 
 
-## Let’s go around for a minute and talk a bit about our computers.
-
-Where’d you get your laptop, how old is it?
-
- - or -
-
-Tell us about your first computer.
-
 ## I'm here to help you do things you find interesting.
 
 I'm a hands-on guide, an advice-giver, someone who wants to fill in the practical gaps that other classes are missing.
 
 Part of hacker culture is the lore — what’s been done, who’s famous. Like graffiti artists or any other culture.
 
-You all have your own kinda subcultures,
-
-### Question
-
-Has anyone done work in
+You all have your own kinda subcultures ...
 
 
 
@@ -56,6 +44,9 @@ Demo: using an API to grab some JSON records.
 
 ## Reformatting dates
     - notebook in copy_me/ directory
+
+
+## Discuss sample datasets
 
 
 ## How to browse GitHub
