@@ -38,7 +38,7 @@ Sample datasets from The Museum of Modern Art ([MoMA](https://github.com/Museumo
 - [Artists.csv](https://media.githubusercontent.com/media/MuseumofModernArt/collection/master/Artists.csv)
 - [Artworks.csv](https://media.githubusercontent.com/media/MuseumofModernArt/collection/master/Artworks.csv)
 
-Or use any 
+Or use any
 
 #### CSV I/O in Python
 Paste the following code snippet into a new Jupyter notebook.
@@ -46,18 +46,18 @@ Paste the following code snippet into a new Jupyter notebook.
 ```python3
 import csv
 
-artist_csv_path = "/sharedfolder/Artists.csv"
-artist_table = []
+csv_path = "/sharedfolder/Artists.csv"
+table = []
 
-with open(artist_csv_path) as fi:
+with open(csv_path) as fi:
     csv_input = csv.reader(fi)
     for row in csv_input:
-        artist_table.append(row)
+        table.append(row)
 
-artist_header = artist_table[0]
-artist_table.remove(artist_table[0])
+header = table[0]
+table.remove(table[0])
 
-artist_header
+header
 ```
 
 ![](week/3/Image-0.png)
@@ -65,9 +65,9 @@ artist_header
 Check the length of the table, then enter an index value in brackets to look at an entry.
 
 ```python3
-print(len(artist_table))
+print(len(table))
 
-artist_table[6310]
+table[6310]
 ```
 
 We’ve just copied all the data from a CSV-formatted spreadsheet and turned it into a format Python can easily work with: a list of lists of strings. Let’s walk through the above a step at a time, this time loading MoMA’s artwork metadata.
@@ -119,15 +119,15 @@ artwork_table[60946]
 
 
 #### Quick Assignment
-Write a piece of code that prints each column label in `artist_header` and `artwork_header` next to its index in the list, beginning from zero as usual. You may want to keep this reference handy for the next few exercises.
+Write a piece of code that prints each column label in `header` and `artwork_header` next to its index in the list, beginning from zero as usual. You may want to keep this reference handy for the next few exercises.
 
  _A possible solution:_
 
 ```python3
 print('Artists\n')
 
-for i in range(len(artist_header)):
-    print(str(i) + ' ' + artist_header[i])
+for i in range(len(header)):
+    print(str(i) + ' ' + header[i])
 
 print('\nArtworks\n')
 
@@ -143,7 +143,7 @@ Write a piece of code that creates a new table (i.e., list of lists) containing 
 ```python3
 born_1880s = []
 
-for row in artist_table:
+for row in table:
     if 1880 <= int(row[5]) <= 1889:
         born_1880s.append(row)
 ```
@@ -391,86 +391,86 @@ This system is straightforward and well-suited for many jobs, but for large, com
 Just like we can refer to a item in a list using brackets to enclose its position in the list, a dictionary, or dict, uses any chosen string or number to identify a value in a collection. This data structure is known as a key-value pair. Here’s the simplest way to create a new dictionary.
 
 ```python3
-artist_meta = {}
-artist_meta['ConstituentID'] = 248
-artist_meta['DisplayName'] = 'Richard Avedon'
-artist_meta['ArtistBio'] = 'American, 1923–2004'
-artist_meta['Nationality'] = 'American'
-artist_meta['Gender'] = 'Male'
-artist_meta['BeginDate'] = 1923
-artist_meta['EndDate'] = 2004
-artist_meta['Wiki QID'] = 'Q305497'
-artist_meta['ULAN'] = '500013773'
+meta = {}
+meta['ConstituentID'] = 248
+meta['DisplayName'] = 'Richard Avedon'
+meta['ArtistBio'] = 'American, 1923–2004'
+meta['Nationality'] = 'American'
+meta['Gender'] = 'Male'
+meta['BeginDate'] = 1923
+meta['EndDate'] = 2004
+meta['Wiki QID'] = 'Q305497'
+meta['ULAN'] = '500013773'
 ```
 The following is a more compact format for the same key-value assignment.
 
 ```python3
-artist_meta = {'ConstituentID': 248, 'DisplayName': 'Richard Avedon', 'Gender': 'Male', 'BeginDate': 1923, 'EndDate': 2004, 'ULAN': '500013773', 'Wiki QID': 'Q305497', 'ArtistBio': 'American, 1923–2004', 'Nationality': 'American'}
+meta = {'ConstituentID': 248, 'DisplayName': 'Richard Avedon', 'Gender': 'Male', 'BeginDate': 1923, 'EndDate': 2004, 'ULAN': '500013773', 'Wiki QID': 'Q305497', 'ArtistBio': 'American, 1923–2004', 'Nationality': 'American'}
 ```
 To access a value, enter its key between brackets like so.
 
 ```python3
-artist_meta['DisplayName']
+meta['DisplayName']
 ```
 And note that you can iterate over a dict to view and/or use its keys.
 
 ```python3
-for key in artist_meta:
-    print(key + " - " + str(artist_meta[key]))
+for key in meta:
+    print(key + " - " + str(meta[key]))
 ```
 
-Next, let’s create a dict for each artist MoMA’s artist metadata. Here’s a snippet (repeated from above) that loads `Artists.csv` as a list of lists called `artist_table`.
+Next, let’s create a dict for each artist MoMA’s artist metadata. Here’s a snippet (repeated from above) that loads `Artists.csv` as a list of lists called `table`.
 
 ```python3
 import csv
 
-artist_csv_path = "/sharedfolder/Artists.csv"
-artist_table = []
+csv_path = "/sharedfolder/Artists.csv"
+table = []
 
-with open(artist_csv_path) as fi:
+with open(csv_path) as fi:
     csv_input = csv.reader(fi)
     for row in csv_input:
-        artist_table.append(row)
+        table.append(row)
 
-artist_header = artist_table[0]
-artist_table.remove(artist_table[0])
+header = table[0]
+table.remove(table[0])
 
-artist_header
+header
 ```
 
-Now we’ll use a for loop to iterate through `artist_table`, converting each list of cells to key-value format.
+Now we’ll use a for loop to iterate through `table`, converting each list of cells to key-value format.
 
 ```python3
-artist_dicts = []
+dicts = []
 
-for row in artist_table:
-    artist_meta = {}
-    artist_meta['ConstituentID'] = row[0]
-    artist_meta['DisplayName'] = row[1]
-    artist_meta['ArtistBio'] = row[2]
-    artist_meta['Nationality'] = row[3]
-    artist_meta['Gender'] = row[4]
-    artist_meta['BeginDate'] = int(row[5])
-    artist_meta['EndDate'] = int(row[6])
-    artist_meta['Wiki QID'] = row[7]
-    artist_meta['ULAN'] = row[8]
-    artist_dicts.append(artist_meta)
+for row in table:
+    meta = {}
+    meta['ConstituentID'] = row[0]
+    meta['DisplayName'] = row[1]
+    meta['ArtistBio'] = row[2]
+    meta['Nationality'] = row[3]
+    meta['Gender'] = row[4]
+    meta['BeginDate'] = int(row[5])
+    meta['EndDate'] = int(row[6])
+    meta['Wiki QID'] = row[7]
+    meta['ULAN'] = row[8]
+    dicts.append(meta)
 ```  
 
-The list `artist_dicts` should now contain records for about 15,000 artists.
+The list `dicts` should now contain records for about 15,000 artists.
 
 ```python3
-len(artist_dicts)
+len(dicts)
 ```
 Specifying an index in brackets will return a dict object.
 
 ```python3
-artist_dicts[12007]
+dicts[12007]
 ```
 And we can use one of our standard key names to get a particular value.
 
 ```python3
-artist_dicts[12007]['DisplayName']
+dicts[12007]['DisplayName']
 ```
 ![](week/3/Image-7.png)
 
