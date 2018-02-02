@@ -16,9 +16,7 @@
 
 > Choose an online data/metadata source, preferably one available to the public via direct download or API. Download a sample of the data, at least 50 or 100 records. Read them over closely, noting anything unexpected. Search for information about the dataset's history, purpose, intended audience, and any past uses by researchers or journalists. Describe what you learned in 400–500 words.
 
-- ​
-
-Collection/Session Group Artist Genre Location Culture Tape Number
+- ​Collection/Session Group Artist Genre Location Culture Tape Number
 
 
 
