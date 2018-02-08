@@ -1,6 +1,22 @@
 ## Week 4: Collections as Data: Data Models
 
-Launch your Docker Container and open a new Jupyter Notebook.
+#### Launching Docker
+
+Open Terminal in macOS and launch our Docker container:
+
+```
+docker rm -f pcda_ubuntu
+docker pull pcda18/ubuntu-image
+docker run --name pcda_ubuntu -ti -p 8889:8889 --volume ~/Desktop/sharedfolder/:/sharedfolder/ pcda18/ubuntu-image
+```
+
+In Windows 10, open PowerShell and enter the following to launch the Docker container:
+
+```
+docker rm -f pcda_ubuntu
+docker pull pcda18/ubuntu-image
+docker run --name pcda_ubuntu -ti -p 8889:8889 --volume C:\Users\***username_here***\Desktop\sharedfolder:/sharedfolder/ pcda18/ubuntu-image
+```
 
 #### Working with JSON
 JSON data is a representation of key-value pairs, very much like a dictionary in Python. For the following example we’ll download a JSON version of the artwork metadata we’ve been working with.
