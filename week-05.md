@@ -3,6 +3,7 @@
 
 
 ### Class Objective
+
 Use text analysis techniques introduced by Montfort to examine and compare small text corpora.
 
 

@@ -3,6 +3,7 @@
 <!--
 explain Rest APIs by showing how a google search can change by changing the URL
 -->
+
 Open Terminal in macOS and launch our Docker container:
 
 ```
@@ -30,6 +31,6 @@ Right click the following links and save the Jupyter notebook files to `sharedfo
 
 Navigate to [localhost:8889](localhost:8889) in your browser to open each notebook.
 
-Helpful hint: you may get an error if you are running a loop for a field that is empty. The good news is that you can add a safety net for this kind of eventuality using the statements "try" and "except" as you see in this example:
+Helpful hint: You may get an error if you are running a loop for a field that is empty. The good news is that you can add a safety net for this kind of eventuality using the statements "try" and "except" as you see in this example:
 
 ![](img/try.except.png)

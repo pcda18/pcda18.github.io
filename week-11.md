@@ -27,7 +27,7 @@ Navigate to [localhost:8889](localhost:8889) in your browser to open the noteboo
 
 - [Reference Snippets: Strings and Lists](https://github.com/pcda18/pcda18.github.io/blob/master/Reference_Snippets_--_Strings_and_Lists.ipynb)
 
-- [Unsupervised Learning: k-means clustering](https://github.com/pcda18/pcda18.github.io/blob/master/Week-11.1_Clustering.ipynb)
+- [Unsupervised Learning: k-means Clustering](https://github.com/pcda18/pcda18.github.io/blob/master/Week-11.1_Clustering.ipynb)
 
 - [Supervised Learning](https://github.com/pcda18/pcda18.github.io/blob/master/Week-11.2_Supervised-learning.ipynb)
 

@@ -16,7 +16,6 @@ Topics to Cover
 -   cluster analysis
 
 
-
 Provide collection of several hundred texts grouped by genre:
 
 - news articles
@@ -37,10 +36,8 @@ Compare models.
 Look at mis-classified texts and discuss what features make them outliers.
 
 
-
 #### Break
 
 Demonstrate cluster analysis.
-
 
 Sentiment analysis: Evaluate/classify Twitter data.

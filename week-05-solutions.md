@@ -170,7 +170,6 @@ You can find a full list of POS tags used by TextBlob [here](https://www.ling.up
 Next, run your POS profile on each text in your two corpora. How much do these values vary between authors and among texts by the same author?
 
 
-
 # A possible solution:
 
 ```
