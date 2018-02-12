@@ -37,21 +37,22 @@ Learning goals:
 
 ### Course Principles
 
--  Writing critically about data requires both a level of knowldege about data and data wrangling as it requires a level of knowledge about thinking and writing from critical perspectives learned in cultural studies. While this course does not *teach* cultural studies, an understanding of and experience in humanities theory and research and the principles of cultural studies are essential.
+-  Writing critically about data requires both a level of knowldege about data and data wrangling, as it requires a level of knowledge about thinking and writing from critical perspectives learned in cultural studies. While this course does not *teach* cultural studies, an understanding of and experience in humanities theory and research and the principles of cultural studies are essential.
 
--  Imitating and modifying others’ code is essential in learning to program. You can many examples and explanations on [Stack Overflow](https://stackoverflow.com/) and similar online forums. Taking one or two lines without attribution is OK; if you use a longer chunk of code found online, add a #comment with the source’s URL.
+-  Imitating and modifying others’ code is essential in learning to program. You can find many examples and explanations on [Stack Overflow](https://stackoverflow.com/) and similar online forums. Taking one or two lines without attribution is OK; if you use a longer chunk of code found online, add a #comment with the source’s URL.
 
 -   Begin assignments early. If you realize what you had in mind is more difficult than expected, talk to the instructor about choosing an alternative.
 
 -   We’ll be focusing on a scripting approach to programming. This course is not oriented toward developing large, complex programs or writing perfectly optimized code.
 
--   Learning to code takes trial and error. Work through weekly programming tutorials before class and continue polishing in-class coding assignments at home.
+-   Learning to code takes trial and error. Work through weekly programming tutorials before class, and continue experimenting with in-class material at home.
+
 
 ## Assignments
 
 ### Final Project: Critical Data Analysis (50%)
 
-For your final project, you will use a dataset drawn from online sources and analyze those data in a critical essay. You may either present an argument about the data (e.g., describing bias in the way the data were chosen and arranged) or you may use your dataset as the basis for an argument about culture (e.g., tracing a stylistic shift in a literary community). You should conceive and execute your project with a specific audience in mind, such as literary scholars, newspaper readers, or policy advocates.
+For your final project, you will use a dataset drawn from online sources and analyze the data in a critical essay. You may either present an argument about the data (e.g., describing bias in the way the data were chosen and arranged) or you may use your dataset as the basis for an argument about culture (e.g., tracing a stylistic shift in a literary community). You should conceive and execute your project with a specific audience in mind, such as literary scholars, newspaper readers, or policy advocates.
 
 Your dataset should comprise at least 200 texts or other media files, or at least 2000 metadata records. The size of your collection should be appropriate to your technical skills and the complexity of each record. Rather than using an entire pre-existing dataset, you may choose to extend or limit the dataset in some way. This might mean curating material from multiple sources, mashing up two or more datasets, augmenting records using machine learning or natural language processing, or using a creative technique to organize messy data.
 
@@ -69,7 +70,7 @@ Your final project will include the following elements:
 
 Except when indicated, there will be required readings each week. The required readings will either be available online and linked below or posted on Canvas, so there are no books to buy or papers to acquire for the class.
 
-Assignments should be posted on Canvas by midnight the day before class.
+Assignments should be posted on Canvas by noon on the day of class.
 
 <!--
 ### Resources
@@ -89,7 +90,7 @@ Add Gitelman on raw data oxymoron
 # <a name="week1"></a>Week 1 (1/18): Introductions & Command Line Basics
 
 
-##### [▸ In-class outline](week-01.md)
+#### [▸ In-class outline](week-01.md)
 
 <!--
 http://sites.nationalacademies.org/cstb/currentprojects/cstb_175246
@@ -107,7 +108,6 @@ http://sites.nationalacademies.org/cstb/currentprojects/cstb_175246
 ### Readings
 
 **[Readings in Canvas](https://utexas.instructure.com/courses/1216837/files/folder/Week_2)**
-
 
 -   Nick Montfort (2016) “Why Program?” In *Exploratory Programming for the Arts and Humanities*, 267–77. Cambridge, MA: The MIT Press.
 
@@ -128,15 +128,13 @@ http://sites.nationalacademies.org/cstb/currentprojects/cstb_175246
 ### Assignment
 
 
-[WA #1](https://utexas.instructure.com/courses/1216837/discussion_topics/2923442)
+[Weekly Assignment #1](https://utexas.instructure.com/courses/1216837/discussion_topics/2923442)
 
 
-##### [▸ In-class outline](week-02.md)
+#### [▸ In-class outline](week-02.md)
 
 
-
-
-----------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 # <a name="week3"></a>Week 3 (2/1): Collections as Data: Meaning Making
 
@@ -179,14 +177,13 @@ Witmore, Michael. 2016. “Latour, the Digital Humanities, and the Divided Kingd
 
 ### Assignment
 
-[WA #2](https://utexas.instructure.com/courses/1216837/discussion_topics/2840058)
+[Weekly Assignment #2](https://utexas.instructure.com/courses/1216837/discussion_topics/2840058)
 
 
-##### [▸ In-class outline](week-03.md)
+#### [▸ In-class outline](week-03.md)
 
 
-
-----------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 # <a name="week4"></a>Week 4 (2/8): Collections as Data: Data Models
 
@@ -216,18 +213,14 @@ Witmore, Michael. 2016. “Latour, the Digital Humanities, and the Divided Kingd
 -   Zhuang, Atima Han, Ishita Vedvyas, and Rishikesh Dole. “Tutorial: OpenRefine,” 2013. [http://casci.umd.edu/wp-content/uploads/2013/12/OpenRefine-tutorial-v1.5.pdf](http://casci.umd.edu/wp-content/uploads/2013/12/OpenRefine-tutorial-v1.5.pdf)
 
 
-
 ### Assignment
 
-[WA #3](https://utexas.instructure.com/courses/1216837/discussion_topics/2841839)
+[Weekly Assignment #3](https://utexas.instructure.com/courses/1216837/discussion_topics/2841839)
 
-##### [▸ In-class outline](week-04.md)
-
-
-
-----------------------------------------------------------------
+#### [▸ In-class outline](week-04.md)
 
 
+# ----------------------------------------------------------------
 
 # <a name="week5"></a>Week 5 (2/15): An Algorithmic Criticism: Word-Level Text Analysis
 
@@ -240,13 +233,9 @@ pip install --user -U textblob
 python -m textblob.download_corpora
 -->
 
-
-
-
 ### Readings
 
 **[Canvas](https://utexas.instructure.com/courses/1216837/files/folder/Week_5)**
-
 
 -   Ramsay, Stephen. “Chapter 1: An Algorithmic Criticism.” In *Reading Machines: Toward an Algorithmic Criticism*, 1–17. Topics in the Digital Humanities. Urbana: University of Illinois Press, 2011.
 
@@ -263,17 +252,14 @@ python -m textblob.download_corpora
 
 ### Assignment
 
+[Weekly Assignment #4](https://utexas.instructure.com/courses/1216837/discussion_topics/2841813)
 
-[WA #4](https://utexas.instructure.com/courses/1216837/discussion_topics/2841813)
-
-##### [▸ In-class outline](week-05.md)
-
+#### [▸ In-class outline](week-05.md)
 
 
-----------------------------------------------------------------
+# ----------------------------------------------------------------
 
-
-# <a name="week6"></a>Week 6 (2/22): The Rise of Free Culture: Web Scraping & APIs
+# <a name="week6"></a>Week 6 (2/22): Web Scraping & APIs
 
 <!--
 Install [Beauitful Soup](https://www.crummy.com/software/BeautifulSoup/) library for parsing HTML.
@@ -315,13 +301,12 @@ Notes 2018: We decided to skip working with APIs on Monday due to limited time. 
 
 ### Assignment
 
-[WA #5](https://utexas.instructure.com/courses/1216837/discussion_topics/2841854)
+[Weekly Assignment #5](https://utexas.instructure.com/courses/1216837/discussion_topics/2841854)
 
-##### [▸ In-class outline](week-06.md)
+#### [▸ In-class outline](week-06.md)
 
 
-
-----------------------------------------------------------------
+# ----------------------------------------------------------------
 
 # <a name="week7"></a>Week 7 (3/1) The Politics of Open Data
 
@@ -353,12 +338,12 @@ we'll work with APIs in week 7 and return to parsing JSON files. Proposals will 
 
 ### Assignment
 
-[WA #6](https://utexas.instructure.com/courses/1216837/discussion_topics/2841926)
+[Weekly Assignment #6](https://utexas.instructure.com/courses/1216837/discussion_topics/2841926)
 
-##### [▸ In-class outline](week-07.md)
+#### [▸ In-class outline](week-07.md)
 
-----------------------------------------------------------------
 
+# ----------------------------------------------------------------
 
 # <a name="week8"></a>Week 8 (3/8): Statistics and Visualization
 
@@ -407,12 +392,12 @@ Note:  2018, assign Text III and Burrows this week.
 
 ### Assignment
 
-##### [▸ In-class outline](week-08.md)
-
-----------------------------------------------------------------
+#### [▸ In-class outline](week-08.md)
 
 
-# <a name="week9"></a>Week 9 (3/22): Your Data, Your culture
+# ----------------------------------------------------------------
+
+# <a name="week9"></a>Week 9 (3/22): Your Data, Your Culture
 
 ### No Readings
 
@@ -420,11 +405,10 @@ Note:  2018, assign Text III and Burrows this week.
 
 [Due: Proposal](https://utexas.instructure.com/courses/1216837/assignments/4166696)
 
-##### [▸ In-class outline](week-09.md)
+#### [▸ In-class outline](week-09.md)
 
 
-----------------------------------------------------------------
-
+# ----------------------------------------------------------------
 
 # <a name="week10"></a>Week 10 (3/29): Machine Learning
 
@@ -440,7 +424,8 @@ Note:  2018, assign Text III and Burrows this week.
 
 -   **Revisit:** Montfort, Nick. "Text III." In *Exploratory Programming for the Arts and Humanities*, 185–213. Cambridge, MA: The MIT Press, 2016.
 
-### Optional Readings
+
+### Optional
 
 -   Norvig, Peter. “Natural Language Corpus Data.” In *Beautiful Data: The Stories Behind Elegant Data Solutions*, edited by Toby Segaran and Jeff Hammerbacher, 1st ed. Beijing ; Sebastopol, CA: O’Reilly, 2009.
 
@@ -453,21 +438,19 @@ Note:  2018, assign Text III and Burrows this week.
 -   “Working With Text Data.” scikit-learn.
                       [http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html](http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
 
+
 ### Assignment
 
 [WA #7](https://utexas.instructure.com/courses/1216837/discussion_topics/2842235)
 
-##### [▸ In-class outline](week-10.md)
+#### [▸ In-class outline](week-10.md)
 
 
-
-----------------------------------------------------------------
-
+# ----------------------------------------------------------------
 
 # <a name="week11"></a>Week 11 (4/5): Critical Text Analysis
 
 ### Readings
-
 
 **[Canvas](https://utexas.instructure.com/courses/1216837/files/folder/Week_11)**
 
@@ -488,18 +471,18 @@ Note:  2018, assign Text III and Burrows this week.
 
 ### Assignment
 
-[WA #8](https://utexas.instructure.com/courses/1216837/discussion_topics/2842240)
+[Weekly Assignment #8](https://utexas.instructure.com/courses/1216837/discussion_topics/2842240)
 
 <!--
-Getting their and getting it structured;
+Getting their data and getting it structured;
 -->
 
 
-##### [▸ In-class outline](week-11.md)
+#### [▸ In-class outline](week-11.md)
 
 
-----------------------------------------------------------------
 
+# ----------------------------------------------------------------
 
 # <a name="week12"></a>Week 12 (4/12): Peer Production & Crowdsourcing
 
@@ -529,7 +512,7 @@ Getting their and getting it structured;
 Machine learning in class
 -->
 
-##### [▸ In-class outline](week-13.md)
+#### [▸ In-class outline](week-13.md)
 
 ----------------------------------------------------------------
 
@@ -556,25 +539,40 @@ Machine learning in class
 
 ### Assignment
 
-[WA #10](https://utexas.instructure.com/courses/1216837/discussion_topics/2842250)
+[Weekly Assignment #10](https://utexas.instructure.com/courses/1216837/discussion_topics/2842250)
 
-##### [▸ In-class outline](week-12.md)
+#### [▸ In-class outline](week-12.md)
 
 <!--
 Steve talks about copyright and helps students
 -->
 
-----------------------------------------------------------------
 
-# <a name="week14"></a>Week 14 (5/3): Final Presentations
+# ----------------------------------------------------------------
+
+
+# <a name="week14"></a>Week 14 (4/26): Final Project Workshop 
+
+
+### Assignment
+
+[Weekly Assignment #11](https://utexas.instructure.com/courses/1216837/discussion_topics/)
+
+
+
+
+# ----------------------------------------------------------------
+
+# <a name="week14"></a>Week 15 (5/3): Final Presentations
 
 [Final Presentation due](https://utexas.instructure.com/courses/1216837/assignments/4166564)
 
 
+5/11: [Final Project due](https://utexas.instructure.com/courses/1216837/assignments/4166548)
 
-12/18: [Final Project due](https://utexas.instructure.com/courses/1216837/assignments/4166548)
 
-----------------------------------------------------------------
+# ----------------------------------------------------------------
+
 # Additional resources:
 
 -- **[Installation Tutorials](tutorials/)**
