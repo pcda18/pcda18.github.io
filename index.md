@@ -275,7 +275,7 @@ Notes 2018: We decided to skip working with APIs on Monday due to limited time. 
 
 **[Canvas](https://utexas.instructure.com/courses/1216837/files/folder/Week_6)**
 
--   Albon, Chris. "Beautiful Soup Basic HTML Scraping." [http://chrisalbon.com/python/beautiful_soup_html_basics.html](http://chrisalbon.com/python/beautiful_soup_html_basics.html)
+-   Albon, Chris. "Beautiful Soup Basic HTML Basics." [https://chrisalbon.com/python/web_scraping/beautiful_soup_html_basics/](https://chrisalbon.com/python/web_scraping/beautiful_soup_html_basics/)
 
 -   Peters, Justin. *The Idealist: Aaron Swartz and the Rise of Free Culture on the Internet*, Chapters 7 and 8. New York: Scribner, 2016.
 
@@ -551,7 +551,7 @@ Steve talks about copyright and helps students
 # ----------------------------------------------------------------
 
 
-# <a name="week14"></a>Week 14 (4/26): Final Project Workshop 
+# <a name="week14"></a>Week 14 (4/26): Final Project Workshop
 
 
 ### Assignment
