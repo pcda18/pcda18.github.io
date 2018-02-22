@@ -167,9 +167,23 @@ print(titles)
 
 
 
+To extract additional metadata from these XML files and write them to a CSV, download and open the following Jupyter notebook file:
+
+[Tutorial: Scraping and Parsing XML](https://raw.githubusercontent.com/pcda18/pcda18.github.io/master/Week-06_Scraping-and-Parsing-XML.ipynb)
+
+These XML finding aids are relatively messy and inconsistent, so the parsing process is a bit involved. I'd encourage you to take some time and try to understand each step.
 
 
+#### In-Class Exercise: Scraping a Metadata Set from Wikipedia
 
+- Choose a list of related Wikipedia articles (e.g., [The Top 100 Crime Novels of All Time](https://en.wikipedia.org/wiki/The_Top_100_Crime_Novels_of_All_Time)).
+  - More options: [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists#Literature)
+- Download the list using Beautiful Soup and create a list of URLs for each page.
+- Download each page on the list and extract relevant metadata (author, language, genre, publisher, date, page count, etc.).
+- Export data as a CSV.
+
+
+<!--
 
 ### Crossref API
 
@@ -178,6 +192,8 @@ Crossref API format:
 ```
 https://search.crossref.org/dois?q=10.5555%2F12345678
 ```
+
+-->
 
 <!--
 I just posted a Jupyter notebook that expands on what we did in class yesterday. It's a step-by-step demonstration of what it looks like to extract several metadata fields from a collection of XML files, then write everything to disk as a CSV file:
@@ -232,12 +248,7 @@ You can also download a series of sequentially numbered files with following not
 #### Beautiful Soup basics
 
 
-#### In-Class Exercise: Scraping a Metadata Set from Wikipedia
-- Choose a list of related Wikipedia articles (e.g., [The Top 100 Crime Novels of All Time](https://en.wikipedia.org/wiki/The_Top_100_Crime_Novels_of_All_Time)).
-  - More options: [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists#Literature)
-- Download the list using Beautiful Soup and create a list of URLs for each page.
-- Download each page on the list and extract relevant metadata (author, language, genre, publisher, date, page count, etc.).
-- Export data as a CSV.
+
 
 - Sample code for Wikipedia list scraping: [http://chrisalbon.com/python/beautiful\_soup\_scraping\_into\_pandas.html](http://chrisalbon.com/python/beautiful_soup_scraping_into_pandas.html)
 
