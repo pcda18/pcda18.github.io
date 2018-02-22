@@ -47,7 +47,7 @@ wget http://findingaids.loc.gov/source/RS --adjust-extension
 
 In the macOS Finder or Windows Explorer, navigate to the `sharedfolder` directory on your desktop. Open the HTML file you just downloaded in `Atom`, or a text editor of your choice.
 
-Scroll through the file and locate the list of links to finding aids. Each XML finding aid URL looks something like this: `http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010001.2`
+Scroll through the file and locate the list of links to finding aids. Each XML finding aid URL looks something like this: `http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010001.4`
 
 ![](week/6/Image-0.png)
 
@@ -103,7 +103,7 @@ Next we will use the BeautifulSoup package to parse an XML file. Insert one of y
 ```
 from bs4 import BeautifulSoup
 
-xml_filename = 'eadmbrs.rs009003.2'
+xml_filename = 'eadmbrs.rs009003.4'
 
 xml_text = open(xml_filename).read()
 
