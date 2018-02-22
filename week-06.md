@@ -3,7 +3,6 @@
 ### Exercise: Download XML-formatted finding aids from the Library of Congress and extract metadata fields
 
 
-
 Open Terminal in macOS and launch our Docker container:
 
 ```
