@@ -178,7 +178,7 @@ These XML finding aids are relatively messy and inconsistent, so the parsing pro
 
 - Choose a list of related Wikipedia articles (e.g., [The Top 100 Crime Novels of All Time](https://en.wikipedia.org/wiki/The_Top_100_Crime_Novels_of_All_Time)).
   - More options: [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists#Literature)
-- Download the list using Beautiful Soup and create a list of URLs for each page.
+- Download the list and use Beautiful Soup to create a list of URLs for each linked page.
 - Download each page on the list and extract relevant metadata (author, language, genre, publisher, date, page count, etc.).
 - Export data as a CSV.
 
