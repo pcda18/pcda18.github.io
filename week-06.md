@@ -68,10 +68,10 @@ We will now use the `grep` tool to search through the HTML file and extract line
 grep "http://" RS.html > url_list_1.txt
 ```
 
-Open `url_list_1.txt` in your text editor and take a look. Note that the file still contains lines we don't need, including links to METS records, which end in `.4`. Since all finding aid URLs that we want end in `.2`, we can use `grep` again to extract just those URLs.
+Open `url_list_1.txt` in your text editor and take a look. Note that the file still contains lines we don't need, including links to records labeled "XML", which end in `.2`. Since all METS finding aid URLs that we want end in `.4`, we can use `grep` again to extract just those URLs.
 
 ```
-grep "\.2" url_list_1.txt > url_list_2.txt
+grep "\.4" url_list_1.txt > url_list_2.txt
 ```
 
 Note that the `.` character in our `grep` search term needs to be escaped using a backslash.
@@ -140,7 +140,7 @@ print(author)
 The following snippet will print the `author` field for each file in your collection of finding aids:
 
 ```
-for filename in [item for item in os.listdir('./') if item[-2:]=='.2']:
+for filename in [item for item in os.listdir('./') if item[-2:]=='.4']:
     page = open(filename).read()
     soup = BeautifulSoup(page, 'lxml')
     title = soup.title.string
