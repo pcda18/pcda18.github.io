@@ -27,7 +27,7 @@ Right click the following links and save the Jupyter notebook files to `sharedfo
 
 1. [Using the Google Books API](https://raw.githubusercontent.com/pcda18/pcda18.github.io/master/week-07.2_Google_Books_API.ipynb)
 
-2. [CSV Input/Output in Python](https://raw.githubusercontent.com/pcda18/pcda18.github.io/master/week-03.1_CSV-Input-Output.ipynb)
+2. [CSV Input/Output in Python](https://raw.githubusercontent.com/pcda18/pcda18.github.io/master/Week-03.1_CSV-Input-Output.ipynb)
 
 3. [Scraping and Parsing XML finding aids](https://raw.githubusercontent.com/pcda18/pcda18.github.io/master/Week-06_Scraping-and-Parsing-XML.ipynb)
 
