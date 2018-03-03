@@ -375,9 +375,11 @@ Note:  2018, assign Text III and Burrows this week.
 
 -   Moretti, Franco. "Graphs." In *Graphs, Maps, Trees: Abstract Models for Literary History*, 3–33. London ; New York: Verso, 2007.
 
--   McCandles, David. *Information is Beautiful*. *http://www.informationisbeautiful.net*
+-   Levy, Michael. "Giant Steps" animation. [youtu.be/rh6WTAHKYTc](https://youtu.be/rh6WTAHKYTc).
 
 ### Optional Readings
+
+-   McCandles, David. *Information is Beautiful*. *http://www.informationisbeautiful.net*
 
 -   Montfort, Nick. "Statistics and Visualization." In *Exploratory Programming for the Arts and Humanities*, 215–40. Cambridge, MA: The MIT Press, 2016.
 
