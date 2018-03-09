@@ -1,4 +1,4 @@
-##Week 7: Data and Politics / CSVs and APIs
+## Week 7: Data and Politics / CSVs and APIs
 
 <!--
 explain Rest APIs by showing how a google search can change by changing the URL
