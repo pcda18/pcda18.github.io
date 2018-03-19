@@ -21,7 +21,7 @@ Office hours: Thursdays 1–3 p.m., UTA 5.558
 
 Prerequsites: previous coursework in the humanities; little or no programming experience required
 
-Learning to think critically about data means rejecting common illusions, including objectivity, impersonality, atemporality, and authorlessness. To teach students to think about information from a critical perspective means first understanding the needs and interests of a given culture.
+Learning to think critically about data means rejecting common illusions, including objectivity, impersonality, atemporality, and authorlessness. Thinking about information from a critical perspective means first understanding the needs and interests of its creators.
 
 Learning objectives:
 
@@ -31,37 +31,37 @@ Learning objectives:
 
 - Gain familiarity with scripting-style programming in Python and Linux, emphasizing literacy in finding and using free and open source software.
 
-- Introduce techniques for collecting, transforming, and analyzing media and metadata available on the Web.
+- Learn techniques for collecting, transforming, and analyzing media and metadata available on the web.
 
-- Introduce commonly used data structures and their standard formats, including CSV, JSON, and XML.
+- Understand commonly used data structures and their standard formats, including CSV, JSON, and XML.
 
 - Use text analysis techniques such as natural language processing (NLP), topic modeling, sentiment analysis, and machine learning classification.
 
-- Analyze culturally significant datasets via visualization and statistical tests, emphasizing critical reflection on the limitations of these approaches.
+- Analyze culturally significant datasets using visualization and statistical tests, emphasizing critical reflection on the limitations of these approaches.
 
 
 ### Course Principles
 
--  Writing critically about data requires both a level of knowldege about data and data wrangling, as it requires a level of knowledge about thinking and writing from critical perspectives learned in cultural studies. While this course does not *teach* cultural studies, an understanding of and experience in humanities theory and research and the principles of cultural studies are essential.
+- Writing critically about data requires both a level of knowldege about data and data wrangling and knowledge about thinking and writing from critical perspectives learned in cultural studies.
 
--  Imitating and modifying others’ code is essential in learning to program. You can find many examples and explanations on [Stack Overflow](https://stackoverflow.com/) and similar online forums. Taking one or two lines without attribution is OK; if you use a longer chunk of code found online, add a #comment with the source’s URL.
+- Imitating and modifying others’ code is essential in learning to program. You can find many examples and explanations on [Stack Overflow](https://stackoverflow.com/) and similar online forums. Taking three or four lines without attribution is OK; if you use a longer chunk of code found online, add a #comment with the source’s URL.
 
--   Begin assignments early. If you realize what you had in mind is more difficult than expected, talk to the instructor about choosing an alternative.
+- Begin assignments early. If you realize what you had in mind is more difficult than expected, talk to the instructor about choosing an alternative.
 
--   We’ll be focusing on a scripting approach to programming. This course is not oriented toward developing large, complex programs or writing perfectly optimized code.
+- We will be focusing on a scripting approach to programming. This course is not oriented toward developing large, complex programs or writing perfectly optimized code.
 
--   Learning to code takes trial and error. Work through weekly programming tutorials before class, and continue experimenting with in-class material at home.
+- Learning to program takes trial and error. You may want to work through weekly programming tutorials before class, and you should continue experimenting with in-class material at home.
 
 
 ## Assignments
 
 ### Final Project: Critical Data Analysis (50%)
 
-For your final project, you will use a dataset drawn from online sources and analyze the data in a critical essay. You may either present an argument about the data (e.g., describing bias in the way the data were chosen and arranged) or you may use your dataset as the basis for an argument about culture (e.g., tracing a stylistic shift in a literary community). You should conceive and execute your project with a specific audience in mind, such as literary scholars, newspaper readers, or policy advocates.
+For your final project, you will use a dataset drawn from online sources and analyze these data in a critical essay. You may either present an argument about the data (e.g., describing bias in the way the data were chosen and arranged) or you may use your dataset as the basis for an argument about culture (e.g., tracing a stylistic shift in a literary community). You should conceive and execute your project with a specific audience in mind, such as literary scholars, policy advocates, or newspaper readers.
 
-Your dataset should comprise at least 200 texts or other media files, or at least 2000 metadata records. The size of your collection should be appropriate to your technical skills and the complexity of each record. Rather than using an entire pre-existing dataset, you may choose to extend or limit the dataset in some way. This might mean curating material from multiple sources, mashing up two or more datasets, augmenting records using machine learning or natural language processing, or using a creative technique to organize messy data.
+Your dataset should comprise at least 50 texts or other media files, or at least 1500 metadata records. The size of your collection should be appropriate to your technical skills and the complexity of each record. Rather than using an pre-existing dataset on its own, you should try to extend or filter your data in some way. This might mean combining material from multiple sources, augmenting records using machine learning or natural language processing, or using a creative technique to organize messy data.
 
-Your final project will include the following elements:
+Your final project will comprise the following elements:
 
 -   Proposal (7%)
 
@@ -69,11 +69,11 @@ Your final project will include the following elements:
 
 -   In-class presentation (week 14) (10%)
 
--   10 page critical essay, with an appendix of 3–4 data visualizations (30%)
+-   10-page critical essay (double-spaced), with an appendix of 3–4 data visualizations (30%)
 
 ### Weekly Assignments (WA) (50%)
 
-Except when indicated, there will be required readings each week. The required readings will either be available online and linked below or posted on Canvas, so there are no books to buy or papers to acquire for the class.
+Except when indicated, there will be required readings each week. The required readings will either be available on the web or posted on Canvas, so there are no books to buy or papers to track down for the class.
 
 Assignments should be posted on Canvas by noon on the day of class.
 
