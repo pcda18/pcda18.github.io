@@ -22,7 +22,7 @@ Download the following Jupyter notebooks to `sharedfolder` on your desktop.
 
 - [9.0 New York Times Article Scrape](Week-09.0_NYT_Article_Scrape.ipynb)
 - [9.1 Supervised Learning](Week-09.1_Supervised_Learning.ipynb)
-- [9.2 Clustering](Week-09.2_Clustering.ipynb)
+- [9.2 Topic Modeling](Week-09.2_Topic_Modeling.ipynb)
 
 
 [Machine Learning PowerPoint Slides](Week_09_Machine_Learning.pptx)
