@@ -448,7 +448,7 @@ Note:  2018, assign Text III and Burrows this week.
 
 ### Assignment
 
-[WA #7](https://utexas.instructure.com/courses/1216837/discussion_topics/2842235)
+[Weekly Assignment #7](https://utexas.instructure.com/courses/1216837/discussion_topics/2842235)
 
 #### [▸ In-class outline](week-10.md)
 
@@ -513,7 +513,7 @@ Getting their data and getting it structured;
 
 ### Assignment
 
-[WA #9](https://utexas.instructure.com/courses/1216837/discussion_topics/2842243)
+[Weekly Assignment #9](https://utexas.instructure.com/courses/1216837/discussion_topics/2842243)
 
 <!--
 Machine learning in class
