@@ -89,7 +89,10 @@ Add Gitelman on raw data oxymoron
 
 
 
+
 ----------------------------------------------------------------
+
+
 
 
 # <a name="week1"></a>Week 1 (1/18): Introductions & Command Line Basics
@@ -104,6 +107,8 @@ http://sites.nationalacademies.org/cstb/currentprojects/cstb_175246
 
 
 ----------------------------------------------------------------
+
+
 
 
 
@@ -139,7 +144,8 @@ http://sites.nationalacademies.org/cstb/currentprojects/cstb_175246
 #### [▸ In-class outline](week-02.md)
 
 
-# ---------------------------------------------------------------------
+----------------------------------------------------------------
+
 
 # <a name="week3"></a>Week 3 (2/1): Collections as Data: Meaning Making
 
@@ -188,7 +194,8 @@ Witmore, Michael. 2016. “Latour, the Digital Humanities, and the Divided Kingd
 #### [▸ In-class outline](week-03.md)
 
 
-# ---------------------------------------------------------------------
+----------------------------------------------------------------
+
 
 # <a name="week4"></a>Week 4 (2/8): Collections as Data: Data Models
 
@@ -225,7 +232,9 @@ Witmore, Michael. 2016. “Latour, the Digital Humanities, and the Divided Kingd
 #### [▸ In-class outline](week-04.md)
 
 
-# ----------------------------------------------------------------
+
+----------------------------------------------------------------
+
 
 # <a name="week5"></a>Week 5 (2/15): An Algorithmic Criticism: Word-Level Text Analysis
 
@@ -262,7 +271,8 @@ python -m textblob.download_corpora
 #### [▸ In-class outline](week-05.md)
 
 
-# ----------------------------------------------------------------
+----------------------------------------------------------------
+
 
 # <a name="week6"></a>Week 6 (2/22): Web Scraping & APIs
 
@@ -311,7 +321,9 @@ Notes 2018: We decided to skip working with APIs on Monday due to limited time. 
 #### [▸ In-class outline](week-06.md)
 
 
-# ----------------------------------------------------------------
+
+----------------------------------------------------------------
+
 
 # <a name="week7"></a>Week 7 (3/1) The Politics of Open Data
 
@@ -348,7 +360,8 @@ we'll work with APIs in week 7 and return to parsing JSON files. Proposals will 
 #### [▸ In-class outline](week-07.md)
 
 
-# ----------------------------------------------------------------
+----------------------------------------------------------------
+
 
 # <a name="week8"></a>Week 8 (3/8): Statistics and Visualization
 
@@ -402,7 +415,8 @@ Note:  2018, assign Text III and Burrows this week.
 #### [▸ In-class outline](week-08.md)
 
 
-# ----------------------------------------------------------------
+----------------------------------------------------------------
+
 
 # <a name="week9"></a>Week 9 (3/22): Your Data, Your Culture
 
@@ -415,7 +429,7 @@ Note:  2018, assign Text III and Burrows this week.
 #### [▸ In-class outline](week-09.md)
 
 
-# ----------------------------------------------------------------
+----------------------------------------------------------------
 
 # <a name="week10"></a>Week 10 (3/29): Machine Learning
 
@@ -453,7 +467,8 @@ Note:  2018, assign Text III and Burrows this week.
 #### [▸ In-class outline](week-10.md)
 
 
-# ----------------------------------------------------------------
+----------------------------------------------------------------
+
 
 # <a name="week11"></a>Week 11 (4/5): Critical Text Analysis
 
@@ -488,8 +503,8 @@ Getting their data and getting it structured;
 #### [▸ In-class outline](week-11.md)
 
 
+----------------------------------------------------------------
 
-# ----------------------------------------------------------------
 
 # <a name="week12"></a>Week 12 (4/12): Peer Production & Crowdsourcing
 
@@ -550,12 +565,9 @@ Machine learning in class
 
 #### [▸ In-class outline](week-12.md)
 
-<!--
-Steve talks about copyright and helps students
--->
 
+----------------------------------------------------------------
 
-# ----------------------------------------------------------------
 
 
 # <a name="week14"></a>Week 14 (4/26): Final Project Workshop
@@ -567,8 +579,8 @@ Steve talks about copyright and helps students
 
 
 
+----------------------------------------------------------------
 
-# ----------------------------------------------------------------
 
 # <a name="week14"></a>Week 15 (5/3): Final Presentations
 
@@ -578,7 +590,8 @@ Steve talks about copyright and helps students
 5/11: [Final Project due](https://utexas.instructure.com/courses/1216837/assignments/4166548)
 
 
-# ----------------------------------------------------------------
+----------------------------------------------------------------
+
 
 # Additional resources:
 
