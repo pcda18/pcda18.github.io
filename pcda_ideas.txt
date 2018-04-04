@@ -1,14 +1,6 @@
-PCDA
 
 
-Pitch Atom -- it's good because it updates in real time when you edit a file somewhere else.
-
-
-
-Help people install Docker on their laptops or run it off a USB key.
-
-
-
+- Clarify difference between > and >> in bash.
 
 
 
