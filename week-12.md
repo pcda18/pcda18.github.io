@@ -31,7 +31,7 @@ Navigate to [localhost:8889](localhost:8889) in your browser to open the noteboo
 
 - [Unsupervised Learning: k-means Clustering](Week-12_Clustering.ipynb)
 
-- [Supervised Learning](Week-12_Supervised-learning.ipynb)
+- [Supervised Learning](Week-12_Supervised_Learning.ipynb)
 
 - [New York Times Article Scraper](https://github.com/pcda18/pcda18.github.io/blob/master/Week-12_NYT_Article_Scrape.ipynb)
 
