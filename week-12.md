@@ -25,16 +25,15 @@ Navigate to [localhost:8889](localhost:8889) in your browser to open the noteboo
 
 ### Jupyter Notebooks
 
-- [Reference Snippets: Strings and Lists](https://github.com/pcda18/pcda18.github.io/blob/master/Reference_Snippets_--_Strings_and_Lists.ipynb)
+- [Reference Snippets: Strings and Lists](https://github.com/pcda18/pcda18.github.io/blob/master/copy_me/Strings_and_Lists_done.ipynb)
 
 - [Topic Modeling](Week-12_Topic-Modeling.ipynb)
 
+- [Unsupervised Learning: k-means Clustering](Week-12_Clustering.ipynb)
 
-- [Unsupervised Learning: k-means Clustering](https://github.com/pcda18/pcda18.github.io/blob/master/Week-11.1_Clustering.ipynb)
+- [Supervised Learning](Week-12_Supervised-learning.ipynb)
 
-- [Supervised Learning](https://github.com/pcda18/pcda18.github.io/blob/master/Week-11.2_Supervised-learning.ipynb)
-
-- [New York Times Article Scraper](https://github.com/pcda18/pcda18.github.io/blob/master/Week-09.0_NYT_Article_Scrape.ipynb)
+- [New York Times Article Scraper](https://github.com/pcda18/pcda18.github.io/blob/master/Week-12_NYT_Article_Scrape.ipynb)
 
 
 ### Resources
