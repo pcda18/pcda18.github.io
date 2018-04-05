@@ -534,7 +534,7 @@ Getting their data and getting it structured;
 Machine learning in class
 -->
 
-#### [▸ In-class outline](week-13.md)
+#### [▸ In-class outline](week-12.md)
 
 ----------------------------------------------------------------
 
