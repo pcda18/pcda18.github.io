@@ -1,4 +1,4 @@
-## Week 11
+## Week 11: More Text Analysis
 
 
 Open Terminal in macOS and launch our Docker container:

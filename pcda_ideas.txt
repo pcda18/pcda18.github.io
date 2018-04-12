@@ -1,7 +1,0 @@
-
-
-- Clarify difference between > and >> in bash.
-
-
-
-
