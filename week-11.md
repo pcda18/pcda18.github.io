@@ -25,13 +25,13 @@ Navigate to [localhost:8889](localhost:8889) in your browser to open the noteboo
 
 ### Jupyter Notebooks
 
-- [Reference Snippets: Strings and Lists](https://github.com/pcda18/pcda18.github.io/blob/master/Reference_Snippets_--_Strings_and_Lists.ipynb)
+- [Reference Snippets: Strings and Lists](https://github.com/pcda18/pcda18.github.io/blob/master/copy_me/Strings_and_Lists_done.ipynb)
 
-- [Unsupervised Learning: k-means Clustering](https://github.com/pcda18/pcda18.github.io/blob/master/Week-11.1_Clustering.ipynb)
+- [Topic Modeling](Week-11_Topic-Modeling.ipynb)
 
-- [Supervised Learning](https://github.com/pcda18/pcda18.github.io/blob/master/Week-11.2_Supervised-learning.ipynb)
+- [Supervised Learning](Week-11_Supervised_Learning.ipynb)
 
-- [New York Times Article Scraper](https://github.com/pcda18/pcda18.github.io/blob/master/Week-11_NYT_Article_Scrape.ipynb)
+- [New York Times Article Scraper](Week-11_NYT_Article_Scrape.ipynb)
 
 
 ### Resources
@@ -39,7 +39,5 @@ Navigate to [localhost:8889](localhost:8889) in your browser to open the noteboo
 - [scikit-learn Cheat Cheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf)
 
 - [scikit-learn Classifier Decision Tree](http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
-
-- [scikit-learn Clustering Overview](http://scikit-learn.org/stable/modules/clustering.html)
 
 - [scikit-learn Supervised Learning Overview](http://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html)
