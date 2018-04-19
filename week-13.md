@@ -10,6 +10,8 @@
 
 ### Resources
 
+- [R Sample Datasets](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
+
 - [Data Visualization LibGuide](https://guides.lib.utexas.edu/data-visualization/resources)
 
 
