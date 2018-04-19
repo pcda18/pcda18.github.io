@@ -3,16 +3,20 @@
 Topics to Cover
 ---------------
 
+
+### In-Class Demos
+
+- [MoMA Metadata Visualizations](Week-13_MoMA_Metadata_Visualizations.ipynb)
+
+### Resources
+
+- [Data Visualization LibGuide](https://guides.lib.utexas.edu/data-visualization/resources)
+
+
+<!--
 -   copyright policy overview: DMCA, fair use, Creative Commons licenses
 
 -   database copyright in the U.S. vs. Europe
 
 -   legal debates around acquiring material for text and data mining research
-
-### In-Class Demos
-
-- [Link to GitHub](https://github.com/pcda18/pcda18.github.io/tree/master/week/13)
-
-### Resources
-
-- [Data Visualization LibGuide](https://guides.lib.utexas.edu/data-visualization/resources)
+-->
