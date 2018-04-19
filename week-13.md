@@ -1,7 +1,7 @@
 ##Week 13: Copyright and the Information Commons
 
-Topics to Cover
----------------
+
+[Copyright PowerPoint Slides](Week-13_Copyright_etc.pptx)
 
 
 ### In-Class Demos
