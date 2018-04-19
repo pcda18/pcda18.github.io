@@ -5,7 +5,7 @@
 
 ### In-Class Demo
 
-- [MoMA Metadata Visualizations](Week-13_Visualization_Lab.ipynb)
+- [Visualization Lab](Week-13_Visualization_Lab.ipynb)
 
 ### Resources
 
