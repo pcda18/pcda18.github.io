@@ -6,7 +6,7 @@ Topics to Cover
 
 ### In-Class Demos
 
-- [MoMA Metadata Visualizations](Week-13_MoMA_Metadata_Visualizations.ipynb)
+- [MoMA Metadata Visualizations](Week-13_Visualization_Lab.ipynb)
 
 ### Resources
 
