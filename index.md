@@ -563,7 +563,7 @@ Machine learning in class
 
 [Weekly Assignment #10](https://utexas.instructure.com/courses/1216837/discussion_topics/2842250)
 
-#### [▸ In-class outline](week-12.md)
+#### [▸ In-class outline](week-13.md)
 
 
 ----------------------------------------------------------------
