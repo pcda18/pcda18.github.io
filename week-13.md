@@ -3,7 +3,7 @@
 - [Copyright PowerPoint Slides](Week-13_Copyright_etc.pptx)
 
 
-### In-Class Demos
+### In-Class Demo
 
 - [MoMA Metadata Visualizations](Week-13_Visualization_Lab.ipynb)
 
